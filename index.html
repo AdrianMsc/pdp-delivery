@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDP | POC</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/github-dark.min.css"
+    />
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body>
+    <section class="container mx-auto">
+      <h1 class="text-3xl font-bold my-10">MSC POC PDP</h1>
+
+      <article class="w-[648px] border border-blue-200 rounded">
+        <header
+          class="flex bg-blue-50 p-3 cursor-pointer"
+          onclick="dropDownOpen()"
+        >
+          <span class="font-bold">Buy more and save!</span>
+          <button class="flex items-center font-bold ml-auto text-blue-800">
+            Hide Details
+
+            <svg
+              id="dropDown"
+              class="ml-1 transition-all rotate-180"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13.0003 10.8333C12.766 10.8333 12.5576 10.7552 12.4014 10.5989L8.00033 6.1979L3.57324 10.5989C3.26074 10.9375 2.71387 10.9375 2.40137 10.5989C2.06283 10.2864 2.06283 9.73956 2.40137 9.42706L7.40137 4.42706C7.71387 4.08852 8.26074 4.08852 8.57324 4.42706L13.5732 9.42706C13.9118 9.73956 13.9118 10.2864 13.5732 10.5989C13.417 10.7552 13.2087 10.8333 13.0003 10.8333Z"
+                fill="#0D3AA9"
+              />
+            </svg>
+          </button>
+        </header>
+        <section id="tableSection" class="py-2 px-3">
+          <p class="block md:hidden">Quantity</p>
+          <table class="w-full text-left">
+            <tr class="border-b">
+              <th class="font-normal hidden md:block">Quantity</th>
+              <th class="font-bold">1-11</th>
+              <th class="font-normal">+12</th>
+              <th class="font-normal">+25</th>
+              <th class="font-normal">+50</th>
+            </tr>
+
+            <tr class="hidden">
+              <td class="hidden md:block">&nbsp;</td>
+              <td class="line-through text-gray-500">$9.63 ea.</td>
+              <td class="line-through text-gray-500">$9.63 ea.</td>
+              <td class="line-through text-gray-500">$9.63 ea.</td>
+              <td class="line-through text-gray-500">$9.63 ea.</td>
+            </tr>
+
+            <tr>
+              <td class="hidden md:block">&nbsp;</td>
+              <td class="font-bold">$9.63 ea.</td>
+              <td>$9.63 ea.</td>
+              <td>$9.63 ea.</td>
+              <td>$9.63 ea.</td>
+            </tr>
+          </table>
+        </section>
+      </article>
+    </section>
+
+    <section class="container mx-auto">
+      <pre class="h-fit">
+            <code class="language-html rounded">
+&lt;article class=&quot;w-[648px] border border-blue-200 rounded&quot;&gt;
+  &lt;header class=&quot;flex bg-blue-50 p-3 cursor-pointer&quot; onclick=&quot;dropDownOpen()&quot;&gt;
+    &lt;span class=&quot;font-bold&quot;&gt;Buy more and save!&lt;/span&gt;
+    &lt;button class=&quot;flex items-center font-bold ml-auto text-blue-800&quot;&gt;
+      Hide Details
+
+      &lt;svg
+        id=&quot;dropDown&quot;
+        class=&quot;ml-1 transition-all rotate-180&quot;
+        width=&quot;16&quot;
+        height=&quot;16&quot;
+        viewBox=&quot;0 0 16 16&quot;
+        fill=&quot;none&quot;
+        xmlns=&quot;http://www.w3.org/2000/svg&quot;
+      &gt;
+        &lt;path
+          d=&quot;M13.0003 10.8333C12.766 10.8333 12.5576 10.7552 12.4014 10.5989L8.00033 6.1979L3.57324 10.5989C3.26074 10.9375 2.71387 10.9375 2.40137 10.5989C2.06283 10.2864 2.06283 9.73956 2.40137 9.42706L7.40137 4.42706C7.71387 4.08852 8.26074 4.08852 8.57324 4.42706L13.5732 9.42706C13.9118 9.73956 13.9118 10.2864 13.5732 10.5989C13.417 10.7552 13.2087 10.8333 13.0003 10.8333Z&quot;
+          fill=&quot;#0D3AA9&quot;/&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
+  &lt;/header&gt;
+  &lt;section id=&quot;tableSection&quot; class=&quot;py-2 px-3&quot;&gt;
+    &lt;p class=&quot;block md:hidden&quot;&gt;Quantity&lt;/p&gt;
+    &lt;table class=&quot;w-full text-left&quot;&gt;
+      &lt;tr class=&quot;border-b&quot;&gt;
+        &lt;th class=&quot;font-normal hidden md:block&quot;&gt;Quantity&lt;/th&gt;
+        &lt;th class=&quot;font-bold&quot;&gt;1-11&lt;/th&gt;
+        &lt;th class=&quot;font-normal&quot;&gt;+12&lt;/th&gt;
+        &lt;th class=&quot;font-normal&quot;&gt;+25&lt;/th&gt;
+        &lt;th class=&quot;font-normal&quot;&gt;+50&lt;/th&gt;
+      &lt;/tr&gt;
+
+      &lt;tr class=&quot;hidden&quot;&gt;
+        &lt;td class=&quot;hidden md:block&quot;&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;td class=&quot;line-through text-gray-500&quot;&gt;$9.63 ea.&lt;/td&gt;
+        &lt;td class=&quot;line-through text-gray-500&quot;&gt;$9.63 ea.&lt;/td&gt;
+        &lt;td class=&quot;line-through text-gray-500&quot;&gt;$9.63 ea.&lt;/td&gt;
+        &lt;td class=&quot;line-through text-gray-500&quot;&gt;$9.63 ea.&lt;/td&gt;
+      &lt;/tr&gt;
+
+      &lt;tr&gt;
+        &lt;td class=&quot;hidden md:block&quot;&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;td class=&quot;font-bold&quot;&gt;$9.63 ea.&lt;/td&gt;
+        &lt;td&gt;$9.63 ea.&lt;/td&gt;
+        &lt;td&gt;$9.63 ea.&lt;/td&gt;
+        &lt;td&gt;$9.63 ea.&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/section&gt;
+&lt;/article&gt;
+            </code>
+          </pre>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+
+    <script>
+      dropDownOpen = () => {
+        const dropDown = document.getElementById("dropDown");
+        dropDown.classList.toggle("rotate-180");
+
+        const tableSection = document.getElementById("tableSection");
+        tableSection.classList.toggle("hidden");
+      };
+    </script>
+  </body>
+</html>
