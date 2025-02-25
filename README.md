@@ -16,7 +16,7 @@ Usage
 To build the Tailwind CSS files, use the following command:
 
 ```bash
-npm run build
+npm run tw
 ```
 
 This will watch for changes in ./src/input.css and output the compiled CSS to ./src/output.css.
