@@ -588,10 +588,6 @@ video {
   }
 }
 
-.left-4 {
-  left: 1rem;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -599,6 +595,10 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 
 .mb-10 {
@@ -621,16 +621,16 @@ video {
   margin-left: 0.25rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .ml-auto {
   margin-left: auto;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
+.mr-1 {
+  margin-right: 0.25rem;
 }
 
 .block {
@@ -653,10 +653,6 @@ video {
   display: none;
 }
 
-.aspect-square {
-  aspect-ratio: 1 / 1;
-}
-
 .size-10 {
   width: 2.5rem;
   height: 2.5rem;
@@ -674,20 +670,8 @@ video {
   height: 268px;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-screen {
   height: 100vh;
-}
-
-.h-\[368px\] {
-  height: 368px;
-}
-
-.h-\[360px\] {
-  height: 360px;
 }
 
 .max-h-full {
@@ -700,6 +684,10 @@ video {
 
 .min-h-24 {
   min-height: 6rem;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-10 {
@@ -716,14 +704,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-1\/2 {
-  width: 50%;
-}
-
-.max-w-\[50\%\] {
-  max-width: 50%;
 }
 
 .table-auto {
@@ -789,10 +769,6 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
-}
-
-.overflow-auto {
-  overflow: auto;
 }
 
 .overflow-hidden {
@@ -929,30 +905,6 @@ video {
   --tw-gradient-to: #4ade80 var(--tw-gradient-to-position);
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.object-fill {
-  -o-object-fit: fill;
-     object-fit: fill;
-}
-
-.object-center {
-  -o-object-position: center;
-     object-position: center;
-}
-
 .p-1 {
   padding: 0.25rem;
 }
@@ -1022,8 +974,8 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.pl-4 {
-  padding-left: 1rem;
+.pl-3 {
+  padding-left: 0.75rem;
 }
 
 .pl-6 {
@@ -1040,14 +992,6 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pl-3 {
-  padding-left: 0.75rem;
-}
-
-.pl-2 {
-  padding-left: 0.5rem;
 }
 
 .text-left {
@@ -1090,10 +1034,6 @@ video {
   font-style: italic;
 }
 
-.leading-5 {
-  line-height: 1.25rem;
-}
-
 .leading-4 {
   line-height: 1rem;
 }
@@ -1121,11 +1061,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-gray-300 {
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity, 1));
 }
 
 .line-through {

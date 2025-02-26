@@ -1,9 +1,15 @@
-dropDownOpen = () => {
-  const dropDown = document.getElementById("dropDown");
-  dropDown.classList.toggle("rotate-180");
+const dropDownOpen = () => {
+  const dropDown = document.querySelector("#dropDown");
+  const tableSection = document.querySelector("#tableSection");
+  const detailText = document.querySelector("#detailText");
 
-  const tableSection = document.getElementById("tableSection");
-  tableSection.classList.toggle("hidden");
+  dropDown?.classList.toggle("rotate-180");
+  tableSection?.classList.toggle("hidden");
+
+  if (detailText) {
+    detailText.textContent =
+      detailText.textContent.trim() === "Hide" ? "View" : "Hide";
+  }
 };
 
 dropDownOpenSpec = () => {
