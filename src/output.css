@@ -633,6 +633,11 @@ video {
   display: none;
 }
 
+.size-10 {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
 .h-10 {
   height: 2.5rem;
 }
@@ -647,6 +652,14 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[268px\] {
+  height: 268px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .min-h-10 {
@@ -838,6 +851,11 @@ video {
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
+}
+
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity, 1));
 }
 
 .bg-gradient-to-b {
