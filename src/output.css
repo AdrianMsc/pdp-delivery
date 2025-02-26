@@ -1083,6 +1083,14 @@ body {
     width: fit-content;
   }
 
+  .md\:w-3\/12 {
+    width: 25%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
   .md\:p-6 {
     padding: 1.5rem;
   }
