@@ -41,15 +41,40 @@
         <div
           class="w-full md:w-4/12 min-h-24 p-6 md:pb-0 md:pr-0 md:pt-6 md:pl-6 gap-4 flex flex-col"
         >
-          COL 1
-        </div>
-        <!--COL 2-->
-        <div class="w-full md:w-6/12 min-h-24 px-6 py-0 md:p-6">COL 2</div>
-        <!--COL 3-->
-        <div
-          class="w-full md:w-3/12 flex flex-col p-6 border-l border-l-gray-200"
-        >
-          COL 3
+          <div class="w-full h-[268px] flex flex-row gap-2">
+            <div class="flex flex-col gap-2">
+              <div class="bg-slate-200 size-10"></div>
+              <div class="bg-slate-200 size-10"></div>
+              <div class="bg-slate-200 size-10"></div>
+              <div class="bg-slate-200 size-10"></div>
+            </div>
+            <div class="bg-slate-200 w-full h-full">Product Image</div>
+          </div>
+          <div class="flex flex-col w-full pb-6">
+            <div class="bg-stone-200 p-4">
+              <div class="flex flex-row justify-between items-center">
+                <p class="text-base font-bold">3D CAD Models</p>
+                <p class="text-sm font-bold text-blue-800">View 2D Drawing</p>
+              </div>
+              <div class="flex flex-row justify-between items-center">
+                <input
+                  type="text"
+                  placeholder="Choose a CAD Format"
+                  class="max-w-[50%] border border-gray-300 min-h-10 rounded pl-4 py-2 pr-2"
+                />
+                <button
+                  class="rounded-full bg-white text-blue-800 border border-blue-800 py-3 px-5 font-bold text-base max-w-[50%]"
+                >
+                  Download 3D File
+                </button>
+              </div>
+            </div>
+            <div
+              class="w-full text-center text-blue-800 text-sm font-bold pt-4"
+            >
+              Product Image Feedback
+            </div>
+          </div>
         </div>
       </article>
     </main>
