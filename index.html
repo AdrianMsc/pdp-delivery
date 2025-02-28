@@ -1,108 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="https://www.mscdirect.com/favicon.ico"
-      type="image/x-icon"
-    />
-    <title>PDP | POC</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/github-dark.min.css"
-    />
-    <link rel="stylesheet" href="src/output.css" />
-    <script
-      src="https://kit.fontawesome.com/a397555a77.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body class="bg-gray-100">
-    <header
-      class="bg-white w-full p-5 flex flex-col items-center justify-center text-gray-600 mb-10"
-    >
-      <img
-        src="https://adrianmsc.github.io/msc-tailwind-theme/assets/msc-logo.svg"
-        width="100"
-        alt=""
-      />
-      <!-- <span>HEADER</span>
-      <ul class="flex gap-10">
-        <li><a href="index.html">INDEX</a></li>
-        <li><a href="col-1.html">COL 1</a></li>
-        <li><a href="col-2.html">COL 2</a></li>
-        <li><a href="col-3.html">COL 3</a></li>
-      </ul> -->
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="https://www.mscdirect.com/favicon.ico" type="image/x-icon" />
+  <title>PDP | POC</title>
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/github-dark.min.css" />
+  <link rel="stylesheet" href="src/output.css" />
+  <script src="https://kit.fontawesome.com/a397555a77.js" crossorigin="anonymous"></script>
+</head>
 
-    <main class="lg:container mx-auto">
-      <!--BREADCUMBS-->
-      <div class="mb-4 text-gray-500 px-6 lg:px-0 flex">
-        <p class="text-sm">
-          Home / Safety / Personal Protective Equipment / Gloves & Hand
-          Protection / Gloves / Disposable Single Use Gloves / 90688524
-        </p>
+<body class="bg-gray-100">
+  <header class="bg-white w-full h-[150px] flex flex-col items-center justify-center text-gray-600 mb-10">
+    <span>HEADER</span>
+    <ul class="flex gap-10">
+      <li><a href="index.html">INDEX</a></li>
+      <li><a href="col-1.html">COL 1</a></li>
+      <li><a href="col-2.html">COL 2</a></li>
+      <li><a href="col-3.html">COL 3</a></li>
+    </ul>
 
-        <div
-          class="email-print items-center justify-start md:justify-end relative ml-auto hidden lg:flex"
-        >
-          <div class="print mr-7">
-            <p
-              onclick="window.print()"
-              aria-hidden="true"
-              class="flex items-center text-sm lg:text-base leading-4 text-monochromes-GradientGrey hover:text-monochromes cursor-pointer"
-            >
-              <i class="fas fa-print mr-2"></i> Print
-            </p>
-          </div>
-          <div class="email" aria-hidden="true">
-            <a
-              href="mailto:?subject=PDP%20URL&amp;body=https%3A%2F%2Fwww.mscdirect.com%2Fproduct%2Fdetails%2F67772947"
-              class="flex items-center text-sm lg:text-base leading-4 text-monochromes-GradientGrey hover:text-monochromes cursor-pointer"
-            >
-              <i class="fas fa-envelope mr-2"></i> Email
-            </a>
-          </div>
-        </div>
-      </div>
+    <label for="browser">Elige o escribe un valor:</label>
+    <input list="browsers" id="browser" name="browser" />
+    <datalist id="browsers">
+      <option value="Chrome"></option>
+      <option value="Firefox"></option>
+      <option value="Edge"></option>
+      <option value="Safari"></option>
+      <option value="Opera"></option>
+    </datalist>
+  </header>
 
-      <article
-        class="bg-white flex flex-col sm:flex-row md:gap-1 rounded-lg flex-wrap md:flex-nowrap"
-      >
-        <!--FLEX TITLE-->
-        <article class="block md:hidden p-5">
+  <main class="container mx-auto h-screen w-screen">
+    <!--BREADCUMBS-->
+    <p class="mb-4 text-gray-500 px-6 md:px-0">
+      Home / Safety / Personal Protective Equipment / Gloves & Hand Protection
+      / Gloves / Disposable Single Use Gloves / 90688524
+    </p>
+
+    <article class="bg-white flex flex-col md:flex-row md:gap-1 rounded-lg">
+      <!--Col 1-->
+      <div class="w-full md:w-4/12 min-h-24 p-6 md:pb-0 md:pr-0 md:pt-6 md:pl-6 gap-4 flex flex-col">
+        <article class="block md:hidden">
           <div class="flex items-center mb-2 gap-1">
-            <svg
-              width="14"
-              height="14"
-              viewBox="0 0 14 14"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M8.84863 2.90624L10.333 2.33332L10.8799 0.87499C10.9059 0.744781 11.0361 0.666656 11.1663 0.666656C11.2705 0.666656 11.4007 0.744781 11.4268 0.87499L11.9997 2.33332L13.458 2.90624C13.5882 2.93228 13.6663 3.06249 13.6663 3.16666C13.6663 3.29686 13.5882 3.42707 13.458 3.45311L11.9997 3.99999L11.4268 5.48436C11.4007 5.58853 11.2705 5.66666 11.1663 5.66666C11.0361 5.66666 10.9059 5.58853 10.8799 5.48436L10.333 3.99999L8.84863 3.45311C8.71842 3.42707 8.66634 3.29686 8.66634 3.16666C8.66634 3.06249 8.71842 2.93228 8.84863 2.90624ZM7.02572 5.56249L9.99447 6.91666C10.1507 6.99478 10.2549 7.15103 10.2549 7.30728C10.2549 7.46353 10.1507 7.61978 9.99447 7.69791L7.02572 9.05207L5.67155 12.0208C5.59342 12.1771 5.43717 12.2812 5.28092 12.2812C5.12467 12.2812 4.96842 12.1771 4.91634 12.0208L3.53613 9.05207L0.567383 7.69791C0.411133 7.61978 0.333008 7.46353 0.333008 7.30728C0.333008 7.15103 0.411133 6.99478 0.567383 6.91666L3.53613 5.56249L4.91634 2.59374C4.96842 2.43749 5.12467 2.33332 5.28092 2.33332C5.43717 2.33332 5.59342 2.43749 5.67155 2.59374L7.02572 5.56249ZM10.8799 9.20832C10.9059 9.07811 11.0361 8.99999 11.1663 8.99999C11.2705 8.99999 11.4007 9.07811 11.4268 9.20832L11.9997 10.6667L13.458 11.2396C13.5882 11.2656 13.6663 11.3958 13.6663 11.5C13.6663 11.6302 13.5882 11.7604 13.458 11.7864L11.9997 12.3333L11.4268 13.8177C11.4007 13.9219 11.2705 14 11.1663 14C11.0361 14 10.9059 13.9219 10.8799 13.8177L10.333 12.3333L8.84863 11.7864C8.71842 11.7604 8.66634 11.6302 8.66634 11.5C8.66634 11.3958 8.71842 11.2656 8.84863 11.2396L10.333 10.6667L10.8799 9.20832Z"
-                fill="#1C58EE"
-              />
+                fill="#1C58EE" />
             </svg>
 
-            <span
-              class="bg-blue-700 text-white rounded-sm py-1 px-2 text-xs font-bold"
-            >
+            <span class="bg-blue-600 text-white rounded-sm py-1 px-2 text-xs font-bold">
               NEW
             </span>
 
             <span
-              class="bg-gradient-to-r from-blue-900 via-blue-700 to-blue-700 text-white rounded-sm py-1 px-2 text-xs font-bold italic"
-            >
+              class="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-600 text-white rounded-sm py-1 px-2 text-xs font-bold italic">
               Best Seller
             </span>
 
             <span
-              class="bg-gradient-to-r from-green-900 via-green-500 to-green-400 text-white rounded-sm py-1 px-2 text-xs font-bold italic"
-            >
+              class="bg-gradient-to-r from-green-900 via-green-500 to-green-400 text-white rounded-sm py-1 px-2 text-xs font-bold italic">
               Top Rated
             </span>
           </div>
@@ -124,552 +83,404 @@
             <p>Big Book# 152</p>
           </div>
         </article>
-
-        <!--Col 1-->
-        <div
-          class="w-full sm:w-6/12 lg:w-4/12 min-h-24 p-6 pb-0 md:pr-0 md:pt-6 md:pl-6 gap-4 flex flex-col order-1 md:order-1"
-        >
-          <div class="w-full h-[268px] flex flex-row gap-2">
-            <div class="flex flex-col gap-2">
-              <div class="bg-slate-200 size-10 rounded"></div>
-              <div class="bg-slate-200 size-10 rounded"></div>
-              <div class="bg-slate-200 size-10 rounded"></div>
-              <div class="bg-slate-200 size-10 rounded"></div>
+        <div class="w-full h-[268px] flex flex-row gap-2">
+          <div class="flex flex-col gap-2">
+            <div class="bg-slate-200 size-10 rounded"></div>
+            <div class="bg-slate-200 size-10 rounded"></div>
+            <div class="bg-slate-200 size-10 rounded"></div>
+            <div class="bg-slate-200 size-10 rounded"></div>
+          </div>
+          <div class="w-full overflow-hidden">
+            <img src="./6748340AB-24.jpg" class="max-h-full mx-auto" />
+          </div>
+        </div>
+        <div class="flex flex-col w-full pb-6">
+          <div class="flex flex-col bg-stone-200 p-4 gap-4">
+            <div class="flex flex-row justify-between items-center">
+              <p class="text-base font-bold">3D CAD Models</p>
+              <p class="text-sm font-bold text-blue-800 hidden md:block">
+                View 2D Drawing
+              </p>
+              <svg class="bloc md:hidden" width="16" height="9" viewBox="0 0 16 9" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M7.99967 8.625C7.70671 8.625 7.44629 8.52734 7.25098 8.33203L1.00098 2.08203C0.577799 1.69141 0.577799 1.00781 1.00098 0.617188C1.3916 0.19401 2.0752 0.19401 2.46582 0.617188L7.99967 6.11849L13.501 0.617188C13.8916 0.19401 14.5752 0.19401 14.9658 0.617188C15.389 1.00781 15.389 1.69141 14.9658 2.08203L8.71582 8.33203C8.52051 8.52734 8.26009 8.625 7.99967 8.625Z"
+                  fill="#717171" />
+              </svg>
             </div>
-            <div class="w-full overflow-hidden">
-              <img src="./6748340AB-24.jpg" class="max-h-full mx-auto" />
+            <div class="md:flex flex-col md:flex-row justify-between items-center gap-3 hidden">
+              <select class="md:max-w-[50%] w-full border border-gray-300 min-h-10 rounded pl-3 py-2 text-sm">
+                <option value="" disabled selected>
+                  Choose a CAD Format
+                </option>
+                <option value="option-1">Option 1</option>
+                <option value="option-2">Option 2</option>
+                <option value="option-3">Option 3</option>
+              </select>
+              <button
+                class="rounded-full bg-white text-blue-800 border border-blue-800 py-2 px-5 font-bold text-base md:max-w-[50%] w-full">
+                Download 3D File
+              </button>
             </div>
           </div>
-          <div class="flex flex-col w-full pb-6">
-            <div class="flex flex-col bg-stone-200 p-4 gap-4">
-              <div
-                class="flex flex-col lg:flex-row items-start lg:justify-between lg:items-center"
-              >
-                <p
-                  class="text-base font-bold flex items-center w-full sm:w-fit"
-                >
-                  3D CAD Models
-                  <svg
-                    class="sm:hidden ml-auto"
-                    width="16"
-                    height="9"
-                    viewBox="0 0 16 9"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M7.99967 8.625C7.70671 8.625 7.44629 8.52734 7.25098 8.33203L1.00098 2.08203C0.577799 1.69141 0.577799 1.00781 1.00098 0.617188C1.3916 0.19401 2.0752 0.19401 2.46582 0.617188L7.99967 6.11849L13.501 0.617188C13.8916 0.19401 14.5752 0.19401 14.9658 0.617188C15.389 1.00781 15.389 1.69141 14.9658 2.08203L8.71582 8.33203C8.52051 8.52734 8.26009 8.625 7.99967 8.625Z"
-                      fill="#717171"
-                    />
-                  </svg>
-                </p>
-                <p class="text-sm font-bold text-blue-700 hidden sm:block">
-                  View 2D Drawing
-                </p>
-              </div>
+          <div class="flex-row w-full items-center pt-4 justify-center gap-2 hidden md:flex">
+            <svg width="16" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.666626 8.41665C0.666626 3.8268 4.37756 0.083313 8.99996 0.083313C13.5898 0.083313 17.3333 3.8268 17.3333 8.41665C17.3333 13.039 13.5898 16.75 8.99996 16.75C4.37756 16.75 0.666626 13.039 0.666626 8.41665ZM8.99996 12.0625C9.42314 12.0625 9.78121 11.737 9.78121 11.2812V9.1979H11.8645C12.2877 9.1979 12.6458 8.87238 12.6458 8.41665C12.6458 7.99347 12.2877 7.6354 11.8645 7.6354H9.78121V5.55206C9.78121 5.12889 9.42314 4.77081 8.99996 4.77081C8.54423 4.77081 8.21871 5.12889 8.21871 5.55206V7.6354H6.13538C5.67965 7.6354 5.35413 7.99347 5.35413 8.41665C5.35413 8.87238 5.67965 9.1979 6.13538 9.1979H8.21871V11.2812C8.21871 11.737 8.54423 12.0625 8.99996 12.0625Z"
+                fill="#0D3AA9" />
+            </svg>
+            <p class="text-sm font-bold leading-4 text-blue-800">
+              Product Image Feedback
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--COL 2-->
+      <div class="w-full md:w-6/12 min-h-24 px-6 py-0 md:p-6">
+        <article class="hidden md:block">
+          <div class="flex items-center mb-2 gap-1">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M8.84863 2.90624L10.333 2.33332L10.8799 0.87499C10.9059 0.744781 11.0361 0.666656 11.1663 0.666656C11.2705 0.666656 11.4007 0.744781 11.4268 0.87499L11.9997 2.33332L13.458 2.90624C13.5882 2.93228 13.6663 3.06249 13.6663 3.16666C13.6663 3.29686 13.5882 3.42707 13.458 3.45311L11.9997 3.99999L11.4268 5.48436C11.4007 5.58853 11.2705 5.66666 11.1663 5.66666C11.0361 5.66666 10.9059 5.58853 10.8799 5.48436L10.333 3.99999L8.84863 3.45311C8.71842 3.42707 8.66634 3.29686 8.66634 3.16666C8.66634 3.06249 8.71842 2.93228 8.84863 2.90624ZM7.02572 5.56249L9.99447 6.91666C10.1507 6.99478 10.2549 7.15103 10.2549 7.30728C10.2549 7.46353 10.1507 7.61978 9.99447 7.69791L7.02572 9.05207L5.67155 12.0208C5.59342 12.1771 5.43717 12.2812 5.28092 12.2812C5.12467 12.2812 4.96842 12.1771 4.91634 12.0208L3.53613 9.05207L0.567383 7.69791C0.411133 7.61978 0.333008 7.46353 0.333008 7.30728C0.333008 7.15103 0.411133 6.99478 0.567383 6.91666L3.53613 5.56249L4.91634 2.59374C4.96842 2.43749 5.12467 2.33332 5.28092 2.33332C5.43717 2.33332 5.59342 2.43749 5.67155 2.59374L7.02572 5.56249ZM10.8799 9.20832C10.9059 9.07811 11.0361 8.99999 11.1663 8.99999C11.2705 8.99999 11.4007 9.07811 11.4268 9.20832L11.9997 10.6667L13.458 11.2396C13.5882 11.2656 13.6663 11.3958 13.6663 11.5C13.6663 11.6302 13.5882 11.7604 13.458 11.7864L11.9997 12.3333L11.4268 13.8177C11.4007 13.9219 11.2705 14 11.1663 14C11.0361 14 10.9059 13.9219 10.8799 13.8177L10.333 12.3333L8.84863 11.7864C8.71842 11.7604 8.66634 11.6302 8.66634 11.5C8.66634 11.3958 8.71842 11.2656 8.84863 11.2396L10.333 10.6667L10.8799 9.20832Z"
+                fill="#2563eb" />
+            </svg>
 
-              <div
-                class="sm:flex flex-col lg:flex-row justify-between items-center gap-3 hidden"
-              >
-                <select
-                  class="lg:w-6/12 w-full border border-gray-300 min-h-10 rounded pl-3 py-2 text-sm"
-                >
-                  <option value="" disabled selected>
-                    Choose a CAD Format
-                  </option>
-                  <option value="option-1">Option 1</option>
-                  <option value="option-2">Option 2</option>
-                  <option value="option-3">Option 3</option>
-                </select>
+            <span class="bg-blue-600 text-white rounded-sm py-1 px-2 text-xs font-bold">
+              NEW
+            </span>
 
-                <button
-                  class="rounded-full bg-white text-blue-700 border border-blue-700 py-2 px-5 font-bold text-sm lg:w-6/12 w-full"
-                >
-                  Download 3D File
-                </button>
+            <span
+              class="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-600 text-white rounded-sm py-1 px-2 text-xs font-bold italic">
+              Best Seller
+            </span>
+
+            <span
+              class="bg-gradient-to-r from-green-900 via-green-500 to-green-400 text-white rounded-sm py-1 px-2 text-xs font-bold italic">
+              Top Rated
+            </span>
+          </div>
+
+          <p class="font-bold text-xs mb-1">SHOWA</p>
+
+          <p class="font-bold text-sm md:text-xl mb-1">
+            Disposable Gloves: Size X-Large, 2.5 mil, Nitrile Coated, Nitrile,
+            General Purpose Grade, Powder-Free, Biodegradable
+          </p>
+
+          <p class="font-normal text-xs md:text-sm mb-4">
+            Blue, 9.5" Long, Grain (Full) Grip, Ambidextrous, FDA Approved
+          </p>
+
+          <div class="flex gap-4 font-normal text-sm text-gray-500 mb-4">
+            <p>MSC# 43728472</p>
+            <p>Mfr# 7502PFXL</p>
+            <p>Big Book# 152</p>
+          </div>
+        </article>
+
+        <div class="flex gap-4 mb-4 text-sm">
+          <div class="flex items-center gap-1">
+            <svg width="80" height="16" viewBox="0 0 80 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M9.90089 6.24999H14.0415C14.3019 6.24999 14.5363 6.43228 14.6144 6.6927C14.7186 6.92707 14.6144 7.21353 14.4061 7.36978L10.9946 10.026L12.3228 14.1927C12.4269 14.4531 12.3228 14.7396 12.0884 14.8958C11.8801 15.0521 11.5676 15.0521 11.3592 14.8698L7.99985 12.2656L4.61443 14.8698C4.4061 15.0521 4.0936 15.0521 3.88527 14.8958C3.65089 14.7396 3.54672 14.4531 3.65089 14.1927L4.97902 10.026L1.56756 7.36978C1.35922 7.21353 1.25506 6.92707 1.35922 6.6927C1.43735 6.43228 1.67172 6.24999 1.95818 6.24999H6.07277L7.40089 2.10936C7.47902 1.84895 7.71339 1.66666 7.99985 1.66666C8.26027 1.66666 8.49464 1.84895 8.57277 2.10936L9.90089 6.24999Z"
+                fill="#1C58EE" />
+              <path
+                d="M25.9009 6.24999H30.0415C30.3019 6.24999 30.5363 6.43228 30.6144 6.6927C30.7186 6.92707 30.6144 7.21353 30.4061 7.36978L26.9946 10.026L28.3228 14.1927C28.4269 14.4531 28.3228 14.7396 28.0884 14.8958C27.8801 15.0521 27.5676 15.0521 27.3592 14.8698L23.9998 12.2656L20.6144 14.8698C20.4061 15.0521 20.0936 15.0521 19.8853 14.8958C19.6509 14.7396 19.5467 14.4531 19.6509 14.1927L20.979 10.026L17.5676 7.36978C17.3592 7.21353 17.2551 6.92707 17.3592 6.6927C17.4373 6.43228 17.6717 6.24999 17.9582 6.24999H22.0728L23.4009 2.10936C23.479 1.84895 23.7134 1.66666 23.9998 1.66666C24.2603 1.66666 24.4946 1.84895 24.5728 2.10936L25.9009 6.24999Z"
+                fill="#1C58EE" />
+              <path
+                d="M41.9009 6.24999H46.0415C46.3019 6.24999 46.5363 6.43228 46.6144 6.6927C46.7186 6.92707 46.6144 7.21353 46.4061 7.36978L42.9946 10.026L44.3228 14.1927C44.4269 14.4531 44.3228 14.7396 44.0884 14.8958C43.8801 15.0521 43.5676 15.0521 43.3592 14.8698L39.9998 12.2656L36.6144 14.8698C36.4061 15.0521 36.0936 15.0521 35.8853 14.8958C35.6509 14.7396 35.5467 14.4531 35.6509 14.1927L36.979 10.026L33.5676 7.36978C33.3592 7.21353 33.2551 6.92707 33.3592 6.6927C33.4373 6.43228 33.6717 6.24999 33.9582 6.24999H38.0728L39.4009 2.10936C39.479 1.84895 39.7134 1.66666 39.9998 1.66666C40.2603 1.66666 40.4946 1.84895 40.5728 2.10936L41.9009 6.24999Z"
+                fill="#1C58EE" />
+              <path
+                d="M57.9009 6.24999H62.0415C62.3019 6.24999 62.5363 6.43228 62.6144 6.6927C62.7186 6.92707 62.6144 7.21353 62.4061 7.36978L58.9946 10.026L60.3228 14.1927C60.4269 14.4531 60.3228 14.7396 60.0884 14.8958C59.8801 15.0521 59.5676 15.0521 59.3592 14.8698L55.9998 12.2656L52.6144 14.8698C52.4061 15.0521 52.0936 15.0521 51.8853 14.8958C51.6509 14.7396 51.5467 14.4531 51.6509 14.1927L52.979 10.026L49.5676 7.36978C49.3592 7.21353 49.2551 6.92707 49.3592 6.6927C49.4373 6.43228 49.6717 6.24999 49.9582 6.24999H54.0728L55.4009 2.10936C55.479 1.84895 55.7134 1.66666 55.9998 1.66666C56.2603 1.66666 56.4946 1.84895 56.5728 2.10936L57.9009 6.24999Z"
+                fill="#1C58EE" />
+              <path
+                d="M73.9009 6.24999H78.0415C78.3019 6.24999 78.5363 6.43228 78.6144 6.6927C78.7186 6.92707 78.6144 7.21353 78.4061 7.36978L74.9946 10.026L76.3228 14.1927C76.4269 14.4531 76.3228 14.7396 76.0884 14.8958C75.8801 15.0521 75.5676 15.0521 75.3592 14.8698L71.9998 12.2656L68.6144 14.8698C68.4061 15.0521 68.0936 15.0521 67.8853 14.8958C67.6509 14.7396 67.5467 14.4531 67.6509 14.1927L68.979 10.026L65.5676 7.36978C65.3592 7.21353 65.2551 6.92707 65.3592 6.6927C65.4373 6.43228 65.6717 6.24999 65.9582 6.24999H70.0728L71.4009 2.10936C71.479 1.84895 71.7134 1.66666 71.9998 1.66666C72.2603 1.66666 72.4946 1.84895 72.5728 2.10936L73.9009 6.24999Z"
+                fill="#717171" />
+              <path
+                d="M71.9998 1.66666C71.7134 1.66666 71.479 1.84895 71.4009 2.10936L70.0728 6.24999H65.9582C65.6717 6.24999 65.4373 6.43228 65.3592 6.6927C65.2551 6.92707 65.3592 7.21353 65.5676 7.36978L68.979 10.026L67.6509 14.1927C67.5467 14.4531 67.6509 14.7396 67.8853 14.8958C68.0936 15.0521 68.4061 15.0521 68.6144 14.8698L71.9998 12.2656V1.66666Z"
+                fill="#1C58EE" />
+            </svg>
+
+            <span class="text-sm">(4.5)</span>
+          </div>
+
+          <a href="#" class="font-bold text-blue-600">5 reviews</a>
+
+          <a href="#" class="font-bold text-blue-600">Write a review</a>
+        </div>
+
+        <div class="flex gap-4 mb-4 text-sm">
+          <div class="font-bold">Q&A</div>
+
+          <a href="#" class="font-bold text-blue-600">
+            <span class="bg-blue-600 text-white rounded-full text-xs p-1">69</span>
+            Answered Questions
+          </a>
+
+          <a href="#" class="font-bold text-blue-600">Ask a Question</a>
+        </div>
+
+        <div class="w-full border border-blue-200 rounded text-center text-blue-600 font-bold text-sm mb-3 py-2 px-3">
+          Shop Product Range
+        </div>
+
+        <article class="w-full border border-blue-200 rounded mb-2">
+          <header class="flex bg-blue-50 p-3 cursor-pointer text-sm" onclick="dropDownOpen()">
+            <span class="font-bold">Buy more and save!</span>
+            <button class="flex items-center font-bold ml-auto text-blue-600">
+              <span id="detailText" class="mr-1">Hide</span> Details
+
+              <svg id="dropDown" class="ml-1 transition-all" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M13.0003 10.8333C12.766 10.8333 12.5576 10.7552 12.4014 10.5989L8.00033 6.1979L3.57324 10.5989C3.26074 10.9375 2.71387 10.9375 2.40137 10.5989C2.06283 10.2864 2.06283 9.73956 2.40137 9.42706L7.40137 4.42706C7.71387 4.08852 8.26074 4.08852 8.57324 4.42706L13.5732 9.42706C13.9118 9.73956 13.9118 10.2864 13.5732 10.5989C13.417 10.7552 13.2087 10.8333 13.0003 10.8333Z"
+                  fill="#2563eb" />
+              </svg>
+            </button>
+          </header>
+          <section id="tableSection" class="py-2 px-3 text-sm">
+            <p class="block md:hidden">Quantity</p>
+            <table class="w-full text-left">
+              <tr class="border-b">
+                <th class="font-normal hidden md:block">Quantity</th>
+                <th class="font-bold">1-11</th>
+                <th class="font-normal">+12</th>
+                <th class="font-normal">+25</th>
+                <th class="font-normal">+50</th>
+              </tr>
+
+              <tr class="hidden">
+                <td class="hidden md:block">&nbsp;</td>
+                <td class="line-through text-gray-500">$9.63 ea.</td>
+                <td class="line-through text-gray-500">$9.63 ea.</td>
+                <td class="line-through text-gray-500">$9.63 ea.</td>
+                <td class="line-through text-gray-500">$9.63 ea.</td>
+              </tr>
+
+              <tr>
+                <td class="hidden md:block">&nbsp;</td>
+                <td class="font-bold">$9.63 ea.</td>
+                <td>$9.63 ea.</td>
+                <td>$9.63 ea.</td>
+                <td>$9.63 ea.</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+
+        <p class="font-bold text-xl mb-2">Specifications</p>
+
+        <table id="specificationsTable" class="table-auto w-full border border-collapse text-sm mb-3">
+          <tr>
+            <td class="border px-4 py-1 w-1/2">Primary Material</td>
+            <td class="border px-4 py-1 w-1/2">Nitrile</td>
+          </tr>
+          <tr>
+            <td class="border px-4 py-1 w-1/2">Thickness (mil)</td>
+            <td class="border px-4 py-1 w-1/2">2.5</td>
+          </tr>
+          <tr>
+            <td class="border px-4 py-1 w-1/2">Grip Surface</td>
+            <td class="border px-4 py-1 w-1/2">Grain (Full)</td>
+          </tr>
+          <tr>
+            <td class="border px-4 py-1 w-1/2">Grade</td>
+            <td class="border px-4 py-1 w-1/2">General Purpose</td>
+          </tr>
+          <tr>
+            <td class="border px-4 py-1 w-1/2">Cuff Type</td>
+            <td class="border px-4 py-1 w-1/2">Regular</td>
+          </tr>
+
+          <tr class="hc hidden">
+            <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
+            <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
+          </tr>
+
+          <tr class="hc hidden">
+            <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
+            <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
+          </tr>
+
+          <tr class="hc hidden">
+            <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
+            <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
+          </tr>
+
+          <tr class="hc hidden">
+            <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
+            <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
+          </tr>
+
+          <tr class="hc hidden">
+            <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
+            <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
+          </tr>
+
+          <tr class="hc hidden">
+            <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
+            <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
+          </tr>
+
+          <tr class="hc hidden">
+            <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
+            <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
+          </tr>
+
+          <tr class="hc hidden">
+            <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
+            <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
+          </tr>
+
+          <tr class="hc hidden">
+            <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
+            <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
+          </tr>
+        </table>
+
+        <div
+          class="w-full md:w-fit border border-blue-200 rounded text-blue-600 font-bold text-sm mb-3 py-1 px-3 flex items-center justify-center cursor-pointer"
+          onclick="dropDownOpenSpec()">
+          Show all specifications
+          <svg id="dropDownSpec" class="ml-1 transition-all rotate-180" width="16" height="16" viewBox="0 0 16 16"
+            fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M13.0003 10.8333C12.766 10.8333 12.5576 10.7552 12.4014 10.5989L8.00033 6.1979L3.57324 10.5989C3.26074 10.9375 2.71387 10.9375 2.40137 10.5989C2.06283 10.2864 2.06283 9.73956 2.40137 9.42706L7.40137 4.42706C7.71387 4.08852 8.26074 4.08852 8.57324 4.42706L13.5732 9.42706C13.9118 9.73956 13.9118 10.2864 13.5732 10.5989C13.417 10.7552 13.2087 10.8333 13.0003 10.8333Z"
+              fill="#2563eb" />
+          </svg>
+        </div>
+      </div>
+      <!--COL 3-->
+      <div class="w-full md:w-3/12 flex flex-col p-6 border-l border-l-gray-200">
+        <div class="flex flex-col gap-5 w-full border-b border-gray-200 pb-5">
+          <div class="flex flex-col gap-2">
+            <div class="flex flex-row justify-between w-full">
+              <p class="text-sm font-normal">Web Price</p>
+              <div class="flex flex-row gap-1">
+                <p class="text-sm font-normal text-gray-500 line-through">
+                  $48.71
+                </p>
+                <p class="text-sm font-bold">$38.71</p>
+                <p class="text-sm font-normal text-gray-500">/each</p>
               </div>
             </div>
-            <div
-              class="flex-row w-full items-center pt-4 justify-center gap-2 hidden sm:flex"
-            >
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 18 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+            <div class="flex flex-row justify-between items-center">
+              <p class="text-sm font-normal">Total</p>
+              <p class="text-xl font-bold">$38.71</p>
+            </div>
+          </div>
+          <div class="flex flex-row justify-between items-center">
+            <div class="flex flex-col">
+              <p class="text-sm font-normal">Length</p>
+              <p class="text-xs italic font-normal">Multiples of 50</p>
+            </div>
+            <select class="md:max-w-[50%] w-full border border-gray-300 min-h-10 rounded pl-3 py-2 text-sm">
+              <option value="" disabled selected class="text-center">
+                50
+              </option>
+              <option value="option-1" class="text-center">100</option>
+              <option value="option-2" class="text-center">150</option>
+              <option value="option-3" class="text-center">200</option>
+            </select>
+          </div>
+          <div class="flex flex-row justify-between items-center">
+            <div class="flex flex-col">
+              <p class="text-sm font-normal">Quantity</p>
+              <p class="text-xs italic font-normal">Qty 1 = 200/pack</p>
+            </div>
+            <div class="flex flex-row gap-2">
+              <button
+                class="flex items-center border border-gray-300 bg-white py-3 px-2 w-10 h-10 rounded justify-center">
+                <svg width="12" height="3" viewBox="0 0 12 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M10.583 2.16667H1.41634C0.947591 2.16667 0.583008 1.80208 0.583008 1.33333C0.583008 0.890625 0.947591 0.5 1.41634 0.5H10.583C11.0257 0.5 11.4163 0.890625 11.4163 1.33333C11.4163 1.80208 11.0257 2.16667 10.583 2.16667Z"
+                    fill="#1C58EE" />
+                </svg>
+              </button>
+              <input
+                class="h-10 w-[76px] border border-gray-300 bg-white py-3 px-2 rounded text-center placeholder-black"
+                placeholder="1" />
+              <button class="flex justify-center border border-gray-300 bg-white py-3 px-2 w-10 h-10 rounded">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M11.4163 6.33332C11.4163 6.80207 11.0257 7.1927 10.583 7.1927H6.83301V10.9427C6.83301 11.3854 6.44238 11.75 5.99967 11.75C5.53092 11.75 5.16634 11.3854 5.16634 10.9427V7.1927H1.41634C0.947591 7.1927 0.583008 6.80207 0.583008 6.33332C0.583008 5.89061 0.947591 5.52603 1.41634 5.52603H5.16634V1.77603C5.16634 1.30728 5.53092 0.916656 5.99967 0.916656C6.44238 0.916656 6.83301 1.30728 6.83301 1.77603V5.52603H10.583C11.0257 5.49999 11.4163 5.89061 11.4163 6.33332Z"
+                    fill="#1C58EE" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <p class="text-xs font-normal">Item cut to your specifications</p>
+          <button class="rounded-full bg-blue-600 text-white py-3 px-5 font-bold text-base leading-4">
+            Add to Cart
+          </button>
+          <div class="flex flex-col gap-2">
+            <div class="flex flex-row gap-2 items-center">
+              <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
-                  d="M0.666626 8.41665C0.666626 3.8268 4.37756 0.083313 8.99996 0.083313C13.5898 0.083313 17.3333 3.8268 17.3333 8.41665C17.3333 13.039 13.5898 16.75 8.99996 16.75C4.37756 16.75 0.666626 13.039 0.666626 8.41665ZM8.99996 12.0625C9.42314 12.0625 9.78121 11.737 9.78121 11.2812V9.1979H11.8645C12.2877 9.1979 12.6458 8.87238 12.6458 8.41665C12.6458 7.99347 12.2877 7.6354 11.8645 7.6354H9.78121V5.55206C9.78121 5.12889 9.42314 4.77081 8.99996 4.77081C8.54423 4.77081 8.21871 5.12889 8.21871 5.55206V7.6354H6.13538C5.67965 7.6354 5.35413 7.99347 5.35413 8.41665C5.35413 8.87238 5.67965 9.1979 6.13538 9.1979H8.21871V11.2812C8.21871 11.737 8.54423 12.0625 8.99996 12.0625Z"
-                  fill="#2563eb"
-                />
+                  d="M11.5732 0.427063C11.9118 0.739563 11.9118 1.28644 11.5732 1.59894L4.90658 8.2656C4.59408 8.60415 4.0472 8.60415 3.7347 8.2656L0.401367 4.93227C0.0628255 4.61977 0.0628255 4.0729 0.401367 3.7604C0.713867 3.42185 1.26074 3.42185 1.57324 3.7604L4.30762 6.49477L10.4014 0.427063C10.7139 0.0885213 11.2607 0.0885213 11.5732 0.427063Z"
+                  fill="#0E754A" />
               </svg>
-              <p class="text-sm font-bold leading-4 text-blue-700">
-                Product Image Feedback
+              <p class="text-sm font-normal">1017 In Stock</p>
+            </div>
+            <div class="flex flex-row gap-2 items-center">
+              <svg width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M4.375 13.6875C3.02083 11.9948 0 7.95835 0 5.66669C0 2.90627 2.21354 0.666687 5 0.666687C7.76042 0.666687 10 2.90627 10 5.66669C10 7.95835 6.95312 11.9948 5.59896 13.6875C5.28646 14.0781 4.6875 14.0781 4.375 13.6875ZM5 7.33335C5.91146 7.33335 6.66667 6.60419 6.66667 5.66669C6.66667 4.75523 5.91146 4.00002 5 4.00002C4.0625 4.00002 3.33333 4.75523 3.33333 5.66669C3.33333 6.60419 4.0625 7.33335 5 7.33335Z"
+                  fill="#212121" />
+              </svg>
+
+              <p class="text-sm font-normal">
+                59 available in Harrisburg, PA
               </p>
             </div>
           </div>
         </div>
-        <!--COL 2-->
-        <div
-          class="w-full sm:w-12/12 lg:w-6/12 min-h-24 px-6 py-0 md:p-6 order-3 md:order-2 mt-4 md:mt-0"
-        >
-          <article class="hidden md:block">
-            <div class="flex items-center mb-2 gap-1">
-              <svg
-                width="14"
-                height="14"
-                viewBox="0 0 14 14"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+        <div class="flex flex-col gap-6 pt-5 overflow-clip">
+          <div class="flex flex-col gap-3">
+            <div class="flex flex-row gap-2 items-center">
+              <svg class="block" width="16" height="14" viewBox="0 0 16 14" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <path
-                  d="M8.84863 2.90624L10.333 2.33332L10.8799 0.87499C10.9059 0.744781 11.0361 0.666656 11.1663 0.666656C11.2705 0.666656 11.4007 0.744781 11.4268 0.87499L11.9997 2.33332L13.458 2.90624C13.5882 2.93228 13.6663 3.06249 13.6663 3.16666C13.6663 3.29686 13.5882 3.42707 13.458 3.45311L11.9997 3.99999L11.4268 5.48436C11.4007 5.58853 11.2705 5.66666 11.1663 5.66666C11.0361 5.66666 10.9059 5.58853 10.8799 5.48436L10.333 3.99999L8.84863 3.45311C8.71842 3.42707 8.66634 3.29686 8.66634 3.16666C8.66634 3.06249 8.71842 2.93228 8.84863 2.90624ZM7.02572 5.56249L9.99447 6.91666C10.1507 6.99478 10.2549 7.15103 10.2549 7.30728C10.2549 7.46353 10.1507 7.61978 9.99447 7.69791L7.02572 9.05207L5.67155 12.0208C5.59342 12.1771 5.43717 12.2812 5.28092 12.2812C5.12467 12.2812 4.96842 12.1771 4.91634 12.0208L3.53613 9.05207L0.567383 7.69791C0.411133 7.61978 0.333008 7.46353 0.333008 7.30728C0.333008 7.15103 0.411133 6.99478 0.567383 6.91666L3.53613 5.56249L4.91634 2.59374C4.96842 2.43749 5.12467 2.33332 5.28092 2.33332C5.43717 2.33332 5.59342 2.43749 5.67155 2.59374L7.02572 5.56249ZM10.8799 9.20832C10.9059 9.07811 11.0361 8.99999 11.1663 8.99999C11.2705 8.99999 11.4007 9.07811 11.4268 9.20832L11.9997 10.6667L13.458 11.2396C13.5882 11.2656 13.6663 11.3958 13.6663 11.5C13.6663 11.6302 13.5882 11.7604 13.458 11.7864L11.9997 12.3333L11.4268 13.8177C11.4007 13.9219 11.2705 14 11.1663 14C11.0361 14 10.9059 13.9219 10.8799 13.8177L10.333 12.3333L8.84863 11.7864C8.71842 11.7604 8.66634 11.6302 8.66634 11.5C8.66634 11.3958 8.71842 11.2656 8.84863 11.2396L10.333 10.6667L10.8799 9.20832Z"
-                  fill="#2563eb"
-                />
+                  d="M9.18717 0.916687C9.8304 0.916687 10.3747 1.46096 10.3747 2.10419V3.29169H11.6117C12.0322 3.29169 12.4281 3.46486 12.7497 3.76174L14.6546 5.66669C14.9515 5.96356 15.1247 6.38413 15.1247 6.80471V9.62502C15.5452 9.62502 15.9163 9.99611 15.9163 10.4167C15.9163 10.862 15.5452 11.2084 15.1247 11.2084H14.333C14.333 12.5196 13.2692 13.5834 11.958 13.5834C10.6221 13.5834 9.58301 12.5196 9.58301 11.2084H6.41634C6.41634 12.5196 5.35254 13.5834 4.04134 13.5834C2.7054 13.5834 1.66634 12.5196 1.66634 11.2084H1.27051C0.602539 11.2084 0.0830078 10.6888 0.0830078 10.0209V2.10419C0.0830078 1.46096 0.602539 0.916687 1.27051 0.916687H9.18717ZM10.3747 4.87502V7.25002H13.5413V6.80471L11.6117 4.87502H10.3747ZM4.04134 10.0209C3.37337 10.0209 2.85384 10.5651 2.85384 11.2084C2.85384 11.8763 3.37337 12.3959 4.04134 12.3959C4.68457 12.3959 5.22884 11.8763 5.22884 11.2084C5.22884 10.5651 4.68457 10.0209 4.04134 10.0209ZM11.958 12.3959C12.6012 12.3959 13.1455 11.8763 13.1455 11.2084C13.1455 10.5651 12.6012 10.0209 11.958 10.0209C11.29 10.0209 10.7705 10.5651 10.7705 11.2084C10.7705 11.8763 11.29 12.3959 11.958 12.3959Z"
+                  fill="#212121" />
               </svg>
-
-              <span
-                class="bg-blue-700 text-white rounded-sm py-1 px-2 text-xs font-bold"
-              >
-                NEW
-              </span>
-
-              <span
-                class="bg-gradient-to-r from-blue-900 via-blue-700 to-blue-700 text-white rounded-sm py-1 px-2 text-xs font-bold italic"
-              >
-                Best Seller
-              </span>
-
-              <span
-                class="bg-gradient-to-r from-green-900 via-green-500 to-green-400 text-white rounded-sm py-1 px-2 text-xs font-bold italic"
-              >
-                Top Rated
-              </span>
-            </div>
-
-            <p class="font-bold text-xs mb-1">SHOWA</p>
-
-            <p class="font-bold text-sm md:text-xl mb-1">
-              Disposable Gloves: Size X-Large, 2.5 mil, Nitrile Coated, Nitrile,
-              General Purpose Grade, Powder-Free, Biodegradable
-            </p>
-
-            <p class="font-normal text-xs md:text-sm mb-4">
-              Blue, 9.5" Long, Grain (Full) Grip, Ambidextrous, FDA Approved
-            </p>
-
-            <div class="flex gap-4 font-normal text-sm text-gray-500 mb-4">
-              <p>MSC# 43728472</p>
-              <p>Mfr# 7502PFXL</p>
-              <p>Big Book# 152</p>
-            </div>
-          </article>
-
-          <div class="flex gap-4 mb-4 text-sm">
-            <div class="flex items-center gap-1">
-              <svg
-                width="80"
-                height="16"
-                viewBox="0 0 80 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M9.90089 6.24999H14.0415C14.3019 6.24999 14.5363 6.43228 14.6144 6.6927C14.7186 6.92707 14.6144 7.21353 14.4061 7.36978L10.9946 10.026L12.3228 14.1927C12.4269 14.4531 12.3228 14.7396 12.0884 14.8958C11.8801 15.0521 11.5676 15.0521 11.3592 14.8698L7.99985 12.2656L4.61443 14.8698C4.4061 15.0521 4.0936 15.0521 3.88527 14.8958C3.65089 14.7396 3.54672 14.4531 3.65089 14.1927L4.97902 10.026L1.56756 7.36978C1.35922 7.21353 1.25506 6.92707 1.35922 6.6927C1.43735 6.43228 1.67172 6.24999 1.95818 6.24999H6.07277L7.40089 2.10936C7.47902 1.84895 7.71339 1.66666 7.99985 1.66666C8.26027 1.66666 8.49464 1.84895 8.57277 2.10936L9.90089 6.24999Z"
-                  fill="#1C58EE"
-                />
-                <path
-                  d="M25.9009 6.24999H30.0415C30.3019 6.24999 30.5363 6.43228 30.6144 6.6927C30.7186 6.92707 30.6144 7.21353 30.4061 7.36978L26.9946 10.026L28.3228 14.1927C28.4269 14.4531 28.3228 14.7396 28.0884 14.8958C27.8801 15.0521 27.5676 15.0521 27.3592 14.8698L23.9998 12.2656L20.6144 14.8698C20.4061 15.0521 20.0936 15.0521 19.8853 14.8958C19.6509 14.7396 19.5467 14.4531 19.6509 14.1927L20.979 10.026L17.5676 7.36978C17.3592 7.21353 17.2551 6.92707 17.3592 6.6927C17.4373 6.43228 17.6717 6.24999 17.9582 6.24999H22.0728L23.4009 2.10936C23.479 1.84895 23.7134 1.66666 23.9998 1.66666C24.2603 1.66666 24.4946 1.84895 24.5728 2.10936L25.9009 6.24999Z"
-                  fill="#1C58EE"
-                />
-                <path
-                  d="M41.9009 6.24999H46.0415C46.3019 6.24999 46.5363 6.43228 46.6144 6.6927C46.7186 6.92707 46.6144 7.21353 46.4061 7.36978L42.9946 10.026L44.3228 14.1927C44.4269 14.4531 44.3228 14.7396 44.0884 14.8958C43.8801 15.0521 43.5676 15.0521 43.3592 14.8698L39.9998 12.2656L36.6144 14.8698C36.4061 15.0521 36.0936 15.0521 35.8853 14.8958C35.6509 14.7396 35.5467 14.4531 35.6509 14.1927L36.979 10.026L33.5676 7.36978C33.3592 7.21353 33.2551 6.92707 33.3592 6.6927C33.4373 6.43228 33.6717 6.24999 33.9582 6.24999H38.0728L39.4009 2.10936C39.479 1.84895 39.7134 1.66666 39.9998 1.66666C40.2603 1.66666 40.4946 1.84895 40.5728 2.10936L41.9009 6.24999Z"
-                  fill="#1C58EE"
-                />
-                <path
-                  d="M57.9009 6.24999H62.0415C62.3019 6.24999 62.5363 6.43228 62.6144 6.6927C62.7186 6.92707 62.6144 7.21353 62.4061 7.36978L58.9946 10.026L60.3228 14.1927C60.4269 14.4531 60.3228 14.7396 60.0884 14.8958C59.8801 15.0521 59.5676 15.0521 59.3592 14.8698L55.9998 12.2656L52.6144 14.8698C52.4061 15.0521 52.0936 15.0521 51.8853 14.8958C51.6509 14.7396 51.5467 14.4531 51.6509 14.1927L52.979 10.026L49.5676 7.36978C49.3592 7.21353 49.2551 6.92707 49.3592 6.6927C49.4373 6.43228 49.6717 6.24999 49.9582 6.24999H54.0728L55.4009 2.10936C55.479 1.84895 55.7134 1.66666 55.9998 1.66666C56.2603 1.66666 56.4946 1.84895 56.5728 2.10936L57.9009 6.24999Z"
-                  fill="#1C58EE"
-                />
-                <path
-                  d="M73.9009 6.24999H78.0415C78.3019 6.24999 78.5363 6.43228 78.6144 6.6927C78.7186 6.92707 78.6144 7.21353 78.4061 7.36978L74.9946 10.026L76.3228 14.1927C76.4269 14.4531 76.3228 14.7396 76.0884 14.8958C75.8801 15.0521 75.5676 15.0521 75.3592 14.8698L71.9998 12.2656L68.6144 14.8698C68.4061 15.0521 68.0936 15.0521 67.8853 14.8958C67.6509 14.7396 67.5467 14.4531 67.6509 14.1927L68.979 10.026L65.5676 7.36978C65.3592 7.21353 65.2551 6.92707 65.3592 6.6927C65.4373 6.43228 65.6717 6.24999 65.9582 6.24999H70.0728L71.4009 2.10936C71.479 1.84895 71.7134 1.66666 71.9998 1.66666C72.2603 1.66666 72.4946 1.84895 72.5728 2.10936L73.9009 6.24999Z"
-                  fill="#717171"
-                />
-                <path
-                  d="M71.9998 1.66666C71.7134 1.66666 71.479 1.84895 71.4009 2.10936L70.0728 6.24999H65.9582C65.6717 6.24999 65.4373 6.43228 65.3592 6.6927C65.2551 6.92707 65.3592 7.21353 65.5676 7.36978L68.979 10.026L67.6509 14.1927C67.5467 14.4531 67.6509 14.7396 67.8853 14.8958C68.0936 15.0521 68.4061 15.0521 68.6144 14.8698L71.9998 12.2656V1.66666Z"
-                  fill="#1C58EE"
-                />
-              </svg>
-
-              <span class="text-sm">(4.5)</span>
-            </div>
-
-            <a href="#" class="font-bold text-blue-700">5 reviews</a>
-
-            <a href="#" class="font-bold text-blue-700">Write a review</a>
-          </div>
-
-          <div class="flex gap-4 mb-4 text-sm">
-            <div class="font-bold">Q&A</div>
-
-            <a href="#" class="font-bold text-blue-700">
-              <span class="bg-blue-700 text-white rounded-full text-xs p-1"
-                >69</span
-              >
-              Answered Questions
-            </a>
-
-            <a href="#" class="font-bold text-blue-700">Ask a Question</a>
-          </div>
-
-          <div
-            class="w-full border border-blue-200 rounded text-center text-blue-700 font-bold text-sm mb-3 py-2 px-3 relative"
-          >
-            <span
-              class="bg-red-600 rounded-full text-white py-1 px-2 text-xs font-bold absolute top-1.5 left-1.5"
-            >
-              NEW
-            </span>
-
-            Shop Product Range
-          </div>
-
-          <article class="w-full border border-blue-200 rounded mb-2">
-            <header
-              class="flex bg-blue-50 p-3 cursor-pointer text-sm"
-              onclick="dropDownOpen()"
-            >
-              <span class="font-bold">Buy more and save!</span>
-              <button class="flex items-center font-bold ml-auto text-blue-700">
-                <span id="detailText" class="mr-1">Hide</span> Details
-
-                <svg
-                  id="dropDown"
-                  class="ml-1 transition-all"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M13.0003 10.8333C12.766 10.8333 12.5576 10.7552 12.4014 10.5989L8.00033 6.1979L3.57324 10.5989C3.26074 10.9375 2.71387 10.9375 2.40137 10.5989C2.06283 10.2864 2.06283 9.73956 2.40137 9.42706L7.40137 4.42706C7.71387 4.08852 8.26074 4.08852 8.57324 4.42706L13.5732 9.42706C13.9118 9.73956 13.9118 10.2864 13.5732 10.5989C13.417 10.7552 13.2087 10.8333 13.0003 10.8333Z"
-                    fill="#2563eb"
-                  />
-                </svg>
-              </button>
-            </header>
-            <section id="tableSection" class="py-2 px-3 text-sm">
-              <p class="block md:hidden">Quantity</p>
-              <table class="w-full text-left">
-                <tr class="border-b">
-                  <th class="font-normal hidden md:block">Quantity</th>
-                  <th class="font-bold">1-11</th>
-                  <th class="font-normal">+12</th>
-                  <th class="font-normal">+25</th>
-                  <th class="font-normal">+50</th>
-                </tr>
-
-                <tr class="hidden">
-                  <td class="hidden md:block">&nbsp;</td>
-                  <td class="line-through text-gray-500">$9.63 ea.</td>
-                  <td class="line-through text-gray-500">$9.63 ea.</td>
-                  <td class="line-through text-gray-500">$9.63 ea.</td>
-                  <td class="line-through text-gray-500">$9.63 ea.</td>
-                </tr>
-
-                <tr>
-                  <td class="hidden md:block">&nbsp;</td>
-                  <td class="font-bold">$9.63 ea.</td>
-                  <td>$9.63 ea.</td>
-                  <td>$9.63 ea.</td>
-                  <td>$9.63 ea.</td>
-                </tr>
-              </table>
-            </section>
-          </article>
-
-          <p class="font-bold text-xl mb-2">Specifications</p>
-
-          <table
-            id="specificationsTable"
-            class="table-auto w-full border border-collapse text-sm mb-3"
-          >
-            <tr>
-              <td class="border px-4 py-1 w-1/2">Primary Material</td>
-              <td class="border px-4 py-1 w-1/2">Nitrile</td>
-            </tr>
-            <tr>
-              <td class="border px-4 py-1 w-1/2">Thickness (mil)</td>
-              <td class="border px-4 py-1 w-1/2">2.5</td>
-            </tr>
-            <tr>
-              <td class="border px-4 py-1 w-1/2">Grip Surface</td>
-              <td class="border px-4 py-1 w-1/2">Grain (Full)</td>
-            </tr>
-            <tr>
-              <td class="border px-4 py-1 w-1/2">Grade</td>
-              <td class="border px-4 py-1 w-1/2">General Purpose</td>
-            </tr>
-            <tr>
-              <td class="border px-4 py-1 w-1/2">Cuff Type</td>
-              <td class="border px-4 py-1 w-1/2">Regular</td>
-            </tr>
-
-            <tr class="hc hidden">
-              <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
-              <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
-            </tr>
-
-            <tr class="hc hidden">
-              <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
-              <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
-            </tr>
-
-            <tr class="hc hidden">
-              <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
-              <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
-            </tr>
-
-            <tr class="hc hidden">
-              <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
-              <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
-            </tr>
-
-            <tr class="hc hidden">
-              <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
-              <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
-            </tr>
-
-            <tr class="hc hidden">
-              <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
-              <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
-            </tr>
-
-            <tr class="hc hidden">
-              <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
-              <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
-            </tr>
-
-            <tr class="hc hidden">
-              <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
-              <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
-            </tr>
-
-            <tr class="hc hidden">
-              <td class="border px-4 py-1 w-1/2">Hidden Row Title</td>
-              <td class="border px-4 py-1 w-1/2">Hidden Row Spec</td>
-            </tr>
-          </table>
-
-          <div
-            class="w-full md:w-fit border border-blue-200 rounded text-blue-700 font-bold text-sm mb-3 py-1 px-3 flex items-center justify-center cursor-pointer"
-            onclick="dropDownOpenSpec()"
-          >
-            Show all specifications
-            <svg
-              id="dropDownSpec"
-              class="ml-1 transition-all rotate-180"
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M13.0003 10.8333C12.766 10.8333 12.5576 10.7552 12.4014 10.5989L8.00033 6.1979L3.57324 10.5989C3.26074 10.9375 2.71387 10.9375 2.40137 10.5989C2.06283 10.2864 2.06283 9.73956 2.40137 9.42706L7.40137 4.42706C7.71387 4.08852 8.26074 4.08852 8.57324 4.42706L13.5732 9.42706C13.9118 9.73956 13.9118 10.2864 13.5732 10.5989C13.417 10.7552 13.2087 10.8333 13.0003 10.8333Z"
-                fill="#2563eb"
-              />
-            </svg>
-          </div>
-        </div>
-        <!--COL 3-->
-        <div
-          class="w-full sm:w-6/12 lg:w-3/12 flex flex-col p-6 pt-0 md:pt-6 border-l border-l-gray-200 order-2 md:order-3"
-        >
-          <div class="flex flex-col gap-5 w-full border-b border-gray-200 pb-5">
-            <div class="flex flex-col gap-2">
-              <div class="flex flex-row justify-between w-full">
-                <p class="text-sm font-normal">Web Price</p>
-                <div class="flex flex-row gap-1">
-                  <p class="text-sm font-normal text-gray-500 line-through">
-                    $48.71
-                  </p>
-                  <p class="text-sm font-bold">$38.71</p>
-                  <p class="text-sm font-normal text-gray-500">/each</p>
-                </div>
-              </div>
-              <div class="flex flex-row justify-between items-center">
-                <p class="text-sm font-normal">Total</p>
-                <p class="text-xl font-bold">$38.71</p>
-              </div>
-            </div>
-            <div class="flex flex-row justify-between items-center">
-              <div class="flex flex-col">
-                <p class="text-sm font-normal">Length</p>
-                <p class="text-xs italic font-normal">Multiples of 50</p>
-              </div>
-              <select
-                class="w-5/12 sm:w-6/12 border border-gray-300 min-h-10 rounded pl-3 py-2 text-sm"
-              >
-                <option value="" disabled selected class="text-center">
-                  50
-                </option>
-                <option value="option-1" class="text-center">100</option>
-                <option value="option-2" class="text-center">150</option>
-                <option value="option-3" class="text-center">200</option>
-              </select>
-            </div>
-            <div class="flex flex-row justify-between items-center">
-              <div class="flex flex-col">
-                <p class="text-sm font-normal">Quantity</p>
-                <p class="text-xs italic font-normal">Qty 1 = 200/pack</p>
-              </div>
-              <div class="flex flex-row gap-2">
-                <button
-                  class="flex items-center border border-gray-300 bg-white py-3 px-2 w-10 h-10 rounded justify-center"
-                >
-                  <svg
-                    width="12"
-                    height="3"
-                    viewBox="0 0 12 3"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10.583 2.16667H1.41634C0.947591 2.16667 0.583008 1.80208 0.583008 1.33333C0.583008 0.890625 0.947591 0.5 1.41634 0.5H10.583C11.0257 0.5 11.4163 0.890625 11.4163 1.33333C11.4163 1.80208 11.0257 2.16667 10.583 2.16667Z"
-                      fill="#1C58EE"
-                    />
-                  </svg>
+              <p class="text-sm font-normal">
+                Delivered as soon as&nbsp;
+                <button class="text-sm font-bold text-blue-800 hover:underline">
+                  Next Business Day*
                 </button>
-                <input
-                  class="h-10 w-[76px] border border-gray-300 bg-white py-3 px-2 rounded text-center placeholder-black"
-                  placeholder="1"
-                />
-                <button
-                  class="flex justify-center border border-gray-300 bg-white py-3 px-2 w-10 h-10 rounded"
-                >
-                  <svg
-                    width="12"
-                    height="12"
-                    viewBox="0 0 12 12"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M11.4163 6.33332C11.4163 6.80207 11.0257 7.1927 10.583 7.1927H6.83301V10.9427C6.83301 11.3854 6.44238 11.75 5.99967 11.75C5.53092 11.75 5.16634 11.3854 5.16634 10.9427V7.1927H1.41634C0.947591 7.1927 0.583008 6.80207 0.583008 6.33332C0.583008 5.89061 0.947591 5.52603 1.41634 5.52603H5.16634V1.77603C5.16634 1.30728 5.53092 0.916656 5.99967 0.916656C6.44238 0.916656 6.83301 1.30728 6.83301 1.77603V5.52603H10.583C11.0257 5.49999 11.4163 5.89061 11.4163 6.33332Z"
-                      fill="#1C58EE"
-                    />
-                  </svg>
-                </button>
-              </div>
+              </p>
             </div>
-            <p class="text-xs font-normal">Item cut to your specifications</p>
-            <button
-              class="rounded-full bg-blue-700 text-white py-3 px-5 font-bold text-base leading-4"
-            >
-              Add to Cart
-            </button>
-            <div class="flex flex-col gap-2">
+            <div class="flex flex-col gap-1">
               <div class="flex flex-row gap-2 items-center">
-                <svg
-                  width="12"
-                  height="9"
-                  viewBox="0 0 12 9"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                <svg width="16" height="16" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
-                    d="M11.5732 0.427063C11.9118 0.739563 11.9118 1.28644 11.5732 1.59894L4.90658 8.2656C4.59408 8.60415 4.0472 8.60415 3.7347 8.2656L0.401367 4.93227C0.0628255 4.61977 0.0628255 4.0729 0.401367 3.7604C0.713867 3.42185 1.26074 3.42185 1.57324 3.7604L4.30762 6.49477L10.4014 0.427063C10.7139 0.0885213 11.2607 0.0885213 11.5732 0.427063Z"
-                    fill="#0E754A"
-                  />
-                </svg>
-                <p class="text-sm font-normal">1017 In Stock</p>
-              </div>
-              <div class="flex flex-row gap-2 items-center">
-                <svg
-                  width="10"
-                  height="14"
-                  viewBox="0 0 10 14"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M4.375 13.6875C3.02083 11.9948 0 7.95835 0 5.66669C0 2.90627 2.21354 0.666687 5 0.666687C7.76042 0.666687 10 2.90627 10 5.66669C10 7.95835 6.95312 11.9948 5.59896 13.6875C5.28646 14.0781 4.6875 14.0781 4.375 13.6875ZM5 7.33335C5.91146 7.33335 6.66667 6.60419 6.66667 5.66669C6.66667 4.75523 5.91146 4.00002 5 4.00002C4.0625 4.00002 3.33333 4.75523 3.33333 5.66669C3.33333 6.60419 4.0625 7.33335 5 7.33335Z"
-                    fill="#212121"
-                  />
-                </svg>
-
-                <p class="text-sm font-normal">
-                  59 available in Harrisburg, PA
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="flex flex-col gap-6 pt-5 overflow-clip">
-            <div class="flex flex-col gap-3">
-              <div class="flex flex-row gap-2 items-center">
-                <svg
-                  class="block"
-                  width="16"
-                  height="14"
-                  viewBox="0 0 16 14"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M9.18717 0.916687C9.8304 0.916687 10.3747 1.46096 10.3747 2.10419V3.29169H11.6117C12.0322 3.29169 12.4281 3.46486 12.7497 3.76174L14.6546 5.66669C14.9515 5.96356 15.1247 6.38413 15.1247 6.80471V9.62502C15.5452 9.62502 15.9163 9.99611 15.9163 10.4167C15.9163 10.862 15.5452 11.2084 15.1247 11.2084H14.333C14.333 12.5196 13.2692 13.5834 11.958 13.5834C10.6221 13.5834 9.58301 12.5196 9.58301 11.2084H6.41634C6.41634 12.5196 5.35254 13.5834 4.04134 13.5834C2.7054 13.5834 1.66634 12.5196 1.66634 11.2084H1.27051C0.602539 11.2084 0.0830078 10.6888 0.0830078 10.0209V2.10419C0.0830078 1.46096 0.602539 0.916687 1.27051 0.916687H9.18717ZM10.3747 4.87502V7.25002H13.5413V6.80471L11.6117 4.87502H10.3747ZM4.04134 10.0209C3.37337 10.0209 2.85384 10.5651 2.85384 11.2084C2.85384 11.8763 3.37337 12.3959 4.04134 12.3959C4.68457 12.3959 5.22884 11.8763 5.22884 11.2084C5.22884 10.5651 4.68457 10.0209 4.04134 10.0209ZM11.958 12.3959C12.6012 12.3959 13.1455 11.8763 13.1455 11.2084C13.1455 10.5651 12.6012 10.0209 11.958 10.0209C11.29 10.0209 10.7705 10.5651 10.7705 11.2084C10.7705 11.8763 11.29 12.3959 11.958 12.3959Z"
-                    fill="#212121"
-                  />
+                    d="M0.333008 7.33335C0.333008 3.66148 3.30176 0.666687 6.99967 0.666687C10.6715 0.666687 13.6663 3.66148 13.6663 7.33335C13.6663 11.0313 10.6715 14 6.99967 14C3.30176 14 0.333008 11.0313 0.333008 7.33335ZM9.99447 6.18752C10.2809 5.90106 10.2809 5.45835 9.99447 5.1719C9.70801 4.88544 9.2653 4.88544 8.97884 5.1719L6.16634 7.9844L4.99447 6.83856C4.70801 6.5521 4.2653 6.5521 3.97884 6.83856C3.69238 7.12502 3.69238 7.56773 3.97884 7.85419L5.64551 9.52085C5.93197 9.80731 6.37467 9.80731 6.66113 9.52085L9.99447 6.18752Z"
+                    fill="#212121" />
                 </svg>
                 <p class="text-sm font-normal">
-                  Delivered as soon as&nbsp;
-                  <button
-                    class="text-sm font-bold text-blue-700 hover:underline"
-                  >
-                    Next Business Day*
+                  Hassle Free Guarantee&nbsp;
+                  <button class="text-sm font-bold text-blue-800 hover:underline text-nowrap">
+                    Learn More
                   </button>
                 </p>
               </div>
-              <div class="flex flex-col gap-1">
-                <div class="flex flex-row gap-2 items-center">
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 14 14"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M0.333008 7.33335C0.333008 3.66148 3.30176 0.666687 6.99967 0.666687C10.6715 0.666687 13.6663 3.66148 13.6663 7.33335C13.6663 11.0313 10.6715 14 6.99967 14C3.30176 14 0.333008 11.0313 0.333008 7.33335ZM9.99447 6.18752C10.2809 5.90106 10.2809 5.45835 9.99447 5.1719C9.70801 4.88544 9.2653 4.88544 8.97884 5.1719L6.16634 7.9844L4.99447 6.83856C4.70801 6.5521 4.2653 6.5521 3.97884 6.83856C3.69238 7.12502 3.69238 7.56773 3.97884 7.85419L5.64551 9.52085C5.93197 9.80731 6.37467 9.80731 6.66113 9.52085L9.99447 6.18752Z"
-                      fill="#212121"
-                    />
-                  </svg>
-                  <p class="text-sm font-normal">
-                    Hassle Free Guarantee&nbsp;
-                    <button
-                      class="text-sm font-bold text-blue-700 hover:underline text-nowrap"
-                    >
-                      Learn More
-                    </button>
-                  </p>
-                </div>
-                <p class="text-sm font-normal pl-6">
-                  We'll exchange or refund any product that doesn't meet your
-                  expectations.
-                </p>
-              </div>
-              <button
-                class="rounded-full bg-white text-blue-700 border border-blue-700 py-3 px-5 font-bold text-base leading-4"
-              >
-                Add to List
-              </button>
+              <p class="text-sm font-normal pl-6">
+                We'll exchange or refund any product that doesn't meet your
+                expectations.
+              </p>
             </div>
+            <button
+              class="rounded-full bg-white text-blue-800 border border-blue-800 py-3 px-5 font-bold text-base leading-4">
+              Add to List
+            </button>
           </div>
         </div>
-      </article>
-    </main>
+      </div>
+    </article>
+  </main>
 
-    <script src="js/index.js"></script>
-  </body>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
