@@ -3174,8 +3174,26 @@
         <div class="md:mx-5 lg:mx-6 xl:mx-8 2xl:mx-10 3xl:mx-14">
           <!-- omer's team CSS here -->
           <style>
+            *,
+            ::before,
+            ::after {
+              --tw-gradient-from-position: ;
+              --tw-gradient-via-position: ;
+              --tw-gradient-to-position: ;
+            }
+
+            ::backdrop {
+              --tw-gradient-from-position: ;
+              --tw-gradient-via-position: ;
+              --tw-gradient-to-position: ;
+            }
+
             .absolute {
               position: absolute;
+            }
+
+            .relative {
+              position: relative;
             }
 
             .left-1\.5 {
@@ -3221,6 +3239,11 @@
             .mx-auto {
               margin-left: auto;
               margin-right: auto;
+            }
+
+            .my-5 {
+              margin-top: 1.25rem;
+              margin-bottom: 1.25rem;
             }
 
             .mb-1 {
@@ -3283,6 +3306,10 @@
               display: flex;
             }
 
+            .table {
+              display: table;
+            }
+
             .hidden {
               display: none;
             }
@@ -3312,8 +3339,36 @@
               height: 100%;
             }
 
+            .h-5 {
+              height: 1.25rem;
+            }
+
+            .h-8 {
+              height: 2rem;
+            }
+
+            .h-\[120px\] {
+              height: 120px;
+            }
+
+            .h-\[128px\] {
+              height: 128px;
+            }
+
+            .h-\[6px\] {
+              height: 6px;
+            }
+
+            .h-40 {
+              height: 10rem;
+            }
+
             .max-h-full {
               max-height: 100%;
+            }
+
+            .max-h-\[212px\] {
+              max-height: 212px;
             }
 
             .min-h-10 {
@@ -3352,12 +3407,44 @@
               width: 100%;
             }
 
+            .w-4 {
+              width: 1rem;
+            }
+
+            .w-6 {
+              width: 1.5rem;
+            }
+
+            .w-8 {
+              width: 2rem;
+            }
+
+            .w-\[360px\] {
+              width: 360px;
+            }
+
+            .w-\[50\%\] {
+              width: 50%;
+            }
+
+            .min-w-\[243px\] {
+              min-width: 243px;
+            }
+
+            .min-w-\[40px\] {
+              min-width: 40px;
+            }
+
             .max-w-64 {
               max-width: 16rem;
             }
 
             .max-w-\[65px\] {
               max-width: 65px;
+            }
+
+            .max-w-\[280px\] {
+              max-width: 280px;
             }
 
             .shrink-0 {
@@ -3498,6 +3585,22 @@
               border-radius: 0.125rem;
             }
 
+            .rounded-bl {
+              border-bottom-left-radius: 0.25rem;
+            }
+
+            .rounded-br {
+              border-bottom-right-radius: 0.25rem;
+            }
+
+            .rounded-tl {
+              border-top-left-radius: 0.25rem;
+            }
+
+            .rounded-tr {
+              border-top-right-radius: 0.25rem;
+            }
+
             .border {
               border-width: 1px;
             }
@@ -3508,6 +3611,14 @@
 
             .border-l {
               border-left-width: 1px;
+            }
+
+            .border-l-0 {
+              border-left-width: 0px;
+            }
+
+            .border-r-0 {
+              border-right-width: 0px;
             }
 
             .border-blue-200 {
@@ -3568,6 +3679,16 @@
             .bg-white {
               --tw-bg-opacity: 1;
               background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+            }
+
+            .bg-blue-800 {
+              --tw-bg-opacity: 1;
+              background-color: rgb(30 64 175 / var(--tw-bg-opacity, 1));
+            }
+
+            .bg-gray-300 {
+              --tw-bg-opacity: 1;
+              background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
             }
 
             .bg-gradient-to-l {
@@ -3640,6 +3761,14 @@
               --tw-gradient-to: transparent var(--tw-gradient-to-position);
             }
 
+            .fill-\[\#1C58EE\] {
+              fill: #1c58ee;
+            }
+
+            .fill-\[\#a9a9a9\] {
+              fill: #a9a9a9;
+            }
+
             .p-1 {
               padding: 0.25rem;
             }
@@ -3666,8 +3795,8 @@
             }
 
             .px-3 {
-              padding-left: 0.75rem !important;
-              padding-right: 0.75rem !important;
+              padding-left: 0.75rem;
+              padding-right: 0.75rem;
             }
 
             .px-4 {
@@ -3703,6 +3832,11 @@
             .py-3 {
               padding-top: 0.75rem;
               padding-bottom: 0.75rem;
+            }
+
+            .px-1 {
+              padding-left: 0.25rem;
+              padding-right: 0.25rem;
             }
 
             .pb-0 {
@@ -3798,6 +3932,14 @@
               line-height: 1rem;
             }
 
+            .leading-5 {
+              line-height: 1.25rem;
+            }
+
+            .leading-7 {
+              line-height: 1.75rem;
+            }
+
             .text-blue-700 {
               --tw-text-opacity: 1;
               color: rgb(29 78 216 / var(--tw-text-opacity, 1));
@@ -3826,6 +3968,11 @@
             .text-white {
               --tw-text-opacity: 1;
               color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+            }
+
+            .text-blue-800 {
+              --tw-text-opacity: 1;
+              color: rgb(30 64 175 / var(--tw-text-opacity, 1));
             }
 
             .line-through {
@@ -3901,7 +4048,28 @@
               text-decoration-line: underline;
             }
 
+            .disabled\:border-gray-300:disabled {
+              --tw-border-opacity: 1;
+              border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+            }
+
+            .disabled\:bg-transparent:disabled {
+              background-color: transparent;
+            }
+
             @media (min-width: 640px) {
+              .sm\:order-1 {
+                order: 1;
+              }
+
+              .sm\:order-2 {
+                order: 2;
+              }
+
+              .sm\:mb-0 {
+                margin-bottom: 0px;
+              }
+
               .sm\:block {
                 display: block;
               }
@@ -3912,6 +4080,10 @@
 
               .sm\:hidden {
                 display: none;
+              }
+
+              .sm\:h-\[600px\] {
+                height: 600px;
               }
 
               .sm\:w-6\/12 {
@@ -4046,6 +4218,18 @@
               .lg\:text-base {
                 font-size: 1rem;
                 line-height: 1.5rem;
+              }
+
+              .lg\:text-xl {
+                font-size: 1.25rem;
+                line-height: 1.75rem;
+              }
+
+              @media not all and (min-width: 1280px) {
+                .lg\:max-xl\:px-2 {
+                  padding-left: 0.5rem;
+                  padding-right: 0.5rem;
+                }
               }
             }
           </style>
@@ -4358,7 +4542,7 @@
                 <article class="w-full border border-blue-200 rounded mb-2">
                   <header
                     class="flex bg-blue-50 p-3 cursor-pointer text-sm"
-                    data-accordion="collapse"
+                    onclick="dropDownOpen()"
                   >
                     <span class="font-bold">Buy more and save!</span>
                     <button
@@ -4382,10 +4566,7 @@
                       </svg>
                     </button>
                   </header>
-                  <section
-                    class="py-2 px-3 text-sm"
-                    id="accordion-collapse-body-1"
-                  >
+                  <section id="tableSection" class="py-2 px-3 text-sm">
                     <p class="block md:hidden">Quantity</p>
                     <table class="w-full text-left">
                       <tr class="border-b">
@@ -4540,7 +4721,7 @@
                       <p class="text-xs italic font-normal">Multiples of 50</p>
                     </div>
                     <select
-                      class="w-5/12 sm:w-6/12 border border-gray-300 min-h-10 rounded pl-3 py-2 text-sm"
+                      class="w-[50%] border border-gray-300 min-h-10 rounded pl-3 py-2 text-sm"
                     >
                       <option value="" disabled selected class="text-center">
                         50
@@ -4555,11 +4736,9 @@
                       <p class="text-sm font-normal">Quantity</p>
                       <p class="text-xs italic font-normal">Qty 1 = 200/pack</p>
                     </div>
-                    <div
-                      class="flex flex-row gap-2 w-5/12 sm:w-6/12 justify-end self-end"
-                    >
+                    <div class="flex flex-row justify-end self-end w-[50%]">
                       <button
-                        class="flex items-center border border-gray-300 bg-white py-3 px-2 w-10 h-10 rounded justify-center"
+                        class="flex items-center border border-gray-300 bg-white p-3 lg:max-xl:px-2 w-10 h-10 justify-center border-r-0 rounded-tl rounded-bl"
                       >
                         <svg
                           width="12"
@@ -4575,11 +4754,11 @@
                         </svg>
                       </button>
                       <input
-                        class="h-10 max-w-[65px] border border-gray-300 bg-white py-3 px-2 rounded text-center placeholder-black"
+                        class="h-10 min-w-[40px] border border-gray-300 bg-white py-3 px-2 text-center placeholder-black"
                         placeholder="1"
                       />
                       <button
-                        class="flex justify-center border border-gray-300 bg-white py-3 px-2 w-10 h-10 rounded"
+                        class="flex justify-center border border-gray-300 bg-white p-3 lg:max-xl:px-2 w-10 h-10 rounded-tr rounded-br border-l-0"
                       >
                         <svg
                           width="12"
@@ -4699,6 +4878,938 @@
                       Add to List
                     </button>
                   </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="bg-white flex flex-col rounded-lg mt-5 p-6">
+              <h2 class="text-base lg:text-xl font-bold mb-5">
+                Alternate Poducts
+              </h2>
+
+              <div class="rounded-lg bg-gray-100 p-5 relative">
+                <div class="overflow-x-auto flex-nowrap flex gap-x-4">
+                  <article class="w-full max-w-64 shrink-0">
+                    <p class="font-bold pb-2">Current</p>
+
+                    <div class="bg-white p-5 rounded-lg">
+                      <div class="flex items-center pb-3">
+                        <img
+                          alt=""
+                          class="h-[80px] m-auto"
+                          src="https://cdn.mscdirect.com/global/images/ProductImages/8930544-24.jpg"
+                        />
+                      </div>
+                      <div class="flex flex-col text-sm">
+                        <div class="flex mb-3">
+                          <p>Web Price</p>
+                          <p class="font-bold text-lg ml-auto">
+                            $38.71
+                            <small class="font-normal text-xs">/ea</small>
+                          </p>
+                        </div>
+
+                        <p class="font-bold mb-2">
+                          <b>DEWALT</b>
+                          Power Tool Battery: 20V, Lithium-ion
+                        </p>
+
+                        <p class="mb-2">MSC# <span>73659377</span></p>
+                        <div class="flex items-center mb-2">
+                          <div class="flex stars-cont gap-1">
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                          </div>
+                          <span class="m-1">(114)</span>
+                        </div>
+                        <button
+                          class="font-bold bg-blue-700 mb-5 p-3 rounded-full text-white w-full text-base"
+                        >
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="w-full max-w-64 shrink-0">
+                    <p class="font-bold pb-2">Alternate 1</p>
+
+                    <div class="bg-white p-5 rounded-lg">
+                      <div class="flex items-center pb-3">
+                        <img
+                          alt=""
+                          class="h-[80px] m-auto"
+                          src="https://cdn.mscdirect.com/global/images/ProductImages/8930544-24.jpg"
+                        />
+                      </div>
+                      <div class="flex flex-col text-sm">
+                        <div class="flex mb-3">
+                          <p>Web Price</p>
+                          <p class="font-bold text-lg ml-auto">
+                            $38.71
+                            <small class="font-normal text-xs">/ea</small>
+                          </p>
+                        </div>
+
+                        <p class="font-bold mb-2">
+                          <b>DEWALT</b>
+                          Power Tool Battery: 20V, Lithium-ion
+                        </p>
+
+                        <p class="mb-2">MSC# <span>73659377</span></p>
+                        <div class="flex items-center mb-2">
+                          <div class="flex stars-cont gap-1">
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                          </div>
+                          <span class="m-1">(114)</span>
+                        </div>
+                        <button
+                          class="font-bold bg-blue-700 mb-5 p-3 rounded-full text-white w-full text-base"
+                        >
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="w-full max-w-64 shrink-0">
+                    <p class="font-bold pb-2">Alternate 1</p>
+
+                    <div class="bg-white p-5 rounded-lg">
+                      <div class="flex items-center pb-3">
+                        <img
+                          alt=""
+                          class="h-[80px] m-auto"
+                          src="https://cdn.mscdirect.com/global/images/ProductImages/8930544-24.jpg"
+                        />
+                      </div>
+                      <div class="flex flex-col text-sm">
+                        <div class="flex mb-3">
+                          <p>Web Price</p>
+                          <p class="font-bold text-lg ml-auto">
+                            $38.71
+                            <small class="font-normal text-xs">/ea</small>
+                          </p>
+                        </div>
+
+                        <p class="font-bold mb-2">
+                          <b>DEWALT</b>
+                          Power Tool Battery: 20V, Lithium-ion
+                        </p>
+
+                        <p class="mb-2">MSC# <span>73659377</span></p>
+                        <div class="flex items-center mb-2">
+                          <div class="flex stars-cont gap-1">
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                          </div>
+                          <span class="m-1">(114)</span>
+                        </div>
+                        <button
+                          class="font-bold bg-blue-700 mb-5 p-3 rounded-full text-white w-full text-base"
+                        >
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="w-full max-w-64 shrink-0">
+                    <p class="font-bold pb-2">Alternate 1</p>
+
+                    <div class="bg-white p-5 rounded-lg">
+                      <div class="flex items-center pb-3">
+                        <img
+                          alt=""
+                          class="h-[80px] m-auto"
+                          src="https://cdn.mscdirect.com/global/images/ProductImages/8930544-24.jpg"
+                        />
+                      </div>
+                      <div class="flex flex-col text-sm">
+                        <div class="flex mb-3">
+                          <p>Web Price</p>
+                          <p class="font-bold text-lg ml-auto">
+                            $38.71
+                            <small class="font-normal text-xs">/ea</small>
+                          </p>
+                        </div>
+
+                        <p class="font-bold mb-2">
+                          <b>DEWALT</b>
+                          Power Tool Battery: 20V, Lithium-ion
+                        </p>
+
+                        <p class="mb-2">MSC# <span>73659377</span></p>
+                        <div class="flex items-center mb-2">
+                          <div class="flex stars-cont gap-1">
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                          </div>
+                          <span class="m-1">(114)</span>
+                        </div>
+                        <button
+                          class="font-bold bg-blue-700 mb-5 p-3 rounded-full text-white w-full text-base"
+                        >
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="w-full max-w-64 shrink-0">
+                    <p class="font-bold pb-2">Alternate 1</p>
+
+                    <div class="bg-white p-5 rounded-lg">
+                      <div class="flex items-center pb-3">
+                        <img
+                          alt=""
+                          class="h-[80px] m-auto"
+                          src="https://cdn.mscdirect.com/global/images/ProductImages/8930544-24.jpg"
+                        />
+                      </div>
+                      <div class="flex flex-col text-sm">
+                        <div class="flex mb-3">
+                          <p>Web Price</p>
+                          <p class="font-bold text-lg ml-auto">
+                            $38.71
+                            <small class="font-normal text-xs">/ea</small>
+                          </p>
+                        </div>
+
+                        <p class="font-bold mb-2">
+                          <b>DEWALT</b>
+                          Power Tool Battery: 20V, Lithium-ion
+                        </p>
+
+                        <p class="mb-2">MSC# <span>73659377</span></p>
+                        <div class="flex items-center mb-2">
+                          <div class="flex stars-cont gap-1">
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                          </div>
+                          <span class="m-1">(114)</span>
+                        </div>
+                        <button
+                          class="font-bold bg-blue-700 mb-5 p-3 rounded-full text-white w-full text-base"
+                        >
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="w-full max-w-64 shrink-0">
+                    <p class="font-bold pb-2">Alternate 1</p>
+
+                    <div class="bg-white p-5 rounded-lg">
+                      <div class="flex items-center pb-3">
+                        <img
+                          alt=""
+                          class="h-[80px] m-auto"
+                          src="https://cdn.mscdirect.com/global/images/ProductImages/8930544-24.jpg"
+                        />
+                      </div>
+                      <div class="flex flex-col text-sm">
+                        <div class="flex mb-3">
+                          <p>Web Price</p>
+                          <p class="font-bold text-lg ml-auto">
+                            $38.71
+                            <small class="font-normal text-xs">/ea</small>
+                          </p>
+                        </div>
+
+                        <p class="font-bold mb-2">
+                          <b>DEWALT</b>
+                          Power Tool Battery: 20V, Lithium-ion
+                        </p>
+
+                        <p class="mb-2">MSC# <span>73659377</span></p>
+                        <div class="flex items-center mb-2">
+                          <div class="flex stars-cont gap-1">
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                          </div>
+                          <span class="m-1">(114)</span>
+                        </div>
+                        <button
+                          class="font-bold bg-blue-700 mb-5 p-3 rounded-full text-white w-full text-base"
+                        >
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="w-full max-w-64 shrink-0">
+                    <p class="font-bold pb-2">Alternate 1</p>
+
+                    <div class="bg-white p-5 rounded-lg">
+                      <div class="flex items-center pb-3">
+                        <img
+                          alt=""
+                          class="h-[80px] m-auto"
+                          src="https://cdn.mscdirect.com/global/images/ProductImages/8930544-24.jpg"
+                        />
+                      </div>
+                      <div class="flex flex-col text-sm">
+                        <div class="flex mb-3">
+                          <p>Web Price</p>
+                          <p class="font-bold text-lg ml-auto">
+                            $38.71
+                            <small class="font-normal text-xs">/ea</small>
+                          </p>
+                        </div>
+
+                        <p class="font-bold mb-2">
+                          <b>DEWALT</b>
+                          Power Tool Battery: 20V, Lithium-ion
+                        </p>
+
+                        <p class="mb-2">MSC# <span>73659377</span></p>
+                        <div class="flex items-center mb-2">
+                          <div class="flex stars-cont gap-1">
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                          </div>
+                          <span class="m-1">(114)</span>
+                        </div>
+                        <button
+                          class="font-bold bg-blue-700 mb-5 p-3 rounded-full text-white w-full text-base"
+                        >
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="w-full max-w-64 shrink-0">
+                    <p class="font-bold pb-2">Alternate 1</p>
+
+                    <div class="bg-white p-5 rounded-lg">
+                      <div class="flex items-center pb-3">
+                        <img
+                          alt=""
+                          class="h-[80px] m-auto"
+                          src="https://cdn.mscdirect.com/global/images/ProductImages/8930544-24.jpg"
+                        />
+                      </div>
+                      <div class="flex flex-col text-sm">
+                        <div class="flex mb-3">
+                          <p>Web Price</p>
+                          <p class="font-bold text-lg ml-auto">
+                            $38.71
+                            <small class="font-normal text-xs">/ea</small>
+                          </p>
+                        </div>
+
+                        <p class="font-bold mb-2">
+                          <b>DEWALT</b>
+                          Power Tool Battery: 20V, Lithium-ion
+                        </p>
+
+                        <p class="mb-2">MSC# <span>73659377</span></p>
+                        <div class="flex items-center mb-2">
+                          <div class="flex stars-cont gap-1">
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                            <svg
+                              fill="none"
+                              height="15"
+                              viewBox="0 0 14 15"
+                              width="14"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.90089 5.25033H13.0415C13.3019 5.25033 13.5363 5.43262 13.6144 5.69303C13.7186 5.92741 13.6144 6.21387 13.4061 6.37012L9.99464 9.02637L11.3228 13.193C11.4269 13.4535 11.3228 13.7399 11.0884 13.8962C10.8801 14.0524 10.5676 14.0524 10.3592 13.8701L6.99985 11.266L3.61443 13.8701C3.4061 14.0524 3.0936 14.0524 2.88527 13.8962C2.65089 13.7399 2.54672 13.4535 2.65089 13.193L3.97902 9.02637L0.567558 6.37012C0.359224 6.21387 0.255058 5.92741 0.359224 5.69303C0.437349 5.43262 0.671724 5.25033 0.958183 5.25033H5.07277L6.40089 1.1097C6.47902 0.849284 6.71339 0.666992 6.99985 0.666992C7.26027 0.666992 7.49464 0.849284 7.57277 1.1097L8.90089 5.25033Z"
+                                fill="#1C58EE"
+                              ></path>
+                            </svg>
+                          </div>
+                          <span class="m-1">(114)</span>
+                        </div>
+                        <button
+                          class="font-bold bg-blue-700 mb-5 p-3 rounded-full text-white w-full text-base"
+                        >
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+
+                <div
+                  class="absolute w-24 bg-gradient-to-l from-white via-white to-transparent right-0 top-0 z-10 h-full flex items-center justify-center cursor-pointer"
+                >
+                  <div
+                    class="shadow-lg rounded-full text-white h-12 w-12 flex items-center justify-center bg-white"
+                  >
+                    <i class="fas fa-chevron-right text-gray-900"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="bg-white flex flex-col rounded-lg mt-5 p-6">
+              <h2 class="text-base lg:text-xl font-bold mb-5">
+                Product details
+              </h2>
+
+              <div class="rounded-lg border">
+                <div class="p-6 border-b">
+                  <div class="flex flex-col sm:flex-row justify-between">
+                    <div class="order-2 sm:order-1">
+                      <h3 class="mb-4 font-bold">Features</h3>
+                      <b>Lorem Ipsum Dolor Sit Amet</b>
+                      <ul class="list-disc pl-5 text-sm mb-4">
+                        <li>
+                          ABS (absolute) scala lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit.
+                        </li>
+                        <li>
+                          Ergonomically designed slider lorem ipsum dolor sit
+                          amet, consectetur adipiscing elit.
+                        </li>
+                        <li>
+                          Step-measurement capacitas lorem ipsum dolor sit amet,
+                          capacitas lorem ipsum dolor sit amet, consectetur
+                          adipiscing elit.
+                        </li>
+                        <li>
+                          Fontis altitudo: 9mm, lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit.
+                        </li>
+                        <li>
+                          Carbide-tipped jaw exemplaria lorem ipsum dolor sit
+                          amet, consectetur adipiscing eli.
+                        </li>
+                      </ul>
+
+                      <b>Lorem Ipsum Dolor Sit Amet</b>
+                      <ul class="list-disc pl-5 text-sm">
+                        <li>
+                          ABS (absolute) scala lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="order-1 sm:order-2 mb-5 sm:mb-0">
+                      <img src="https://placehold.co/360x" alt="" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="p-6 border-b">
+                  <h3 class="mb-4 font-bold">Documents</h3>
+
+                  <div class="flex">
+                    <img src="https://placehold.co/100x130" alt="" />
+
+                    <div class="pl-3">
+                      <b class="mb-3 text-sm">Lorem Ipsum Dolor Sit Amet</b>
+
+                      <p class="text-base">
+                        <a href="#" class="text-blue-700 font-bold">View</a> |
+                        <a href="#" class="text-blue-700 font-bold">Download</a>
+                      </p>
+
+                      <p class="flex items-center gap-x-3">
+                        <svg
+                          width="13"
+                          height="16"
+                          viewBox="0 0 13 16"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M3.5625 9.5H3.3125V8H3.5625C3.96875 8 4.3125 8.34375 4.3125 8.75C4.3125 9.1875 3.96875 9.5 3.5625 9.5ZM6.8125 8H7.0625C7.3125 8 7.5625 8.25 7.5625 8.5V10.5C7.5625 10.7812 7.3125 11 7.0625 11H6.8125V8ZM7.8125 0V4C7.8125 4.5625 8.25 5 8.8125 5H12.8125V14C12.8125 15.125 11.9062 16 10.8125 16H2.8125C1.6875 16 0.8125 15.125 0.8125 14V2C0.8125 0.90625 1.6875 0 2.8125 0H7.8125ZM2.8125 7C2.53125 7 2.3125 7.25 2.3125 7.5V11.5C2.3125 11.7812 2.53125 12 2.8125 12C3.0625 12 3.3125 11.7812 3.3125 11.5V10.5H3.5625C4.5 10.5 5.3125 9.71875 5.3125 8.75C5.3125 7.8125 4.5 7 3.5625 7H2.8125ZM5.8125 11.5C5.8125 11.7812 6.03125 12 6.3125 12H7.0625C7.875 12 8.5625 11.3438 8.5625 10.5V8.5C8.5625 7.6875 7.875 7 7.0625 7H6.3125C6.03125 7 5.8125 7.25 5.8125 7.5V11.5ZM9.8125 7C9.53125 7 9.3125 7.25 9.3125 7.5V11.5C9.3125 11.7812 9.53125 12 9.8125 12C10.0625 12 10.3125 11.7812 10.3125 11.5V10H11.3125C11.5625 10 11.8125 9.78125 11.8125 9.5C11.8125 9.25 11.5625 9 11.3125 9H10.3125V8H11.3125C11.5625 8 11.8125 7.78125 11.8125 7.5C11.8125 7.25 11.5625 7 11.3125 7H9.8125ZM8.8125 0L12.8125 4H8.8125V0Z"
+                            fill="#212121"
+                            fill-opacity="0.64"
+                          />
+                        </svg>
+
+                        <span class="text-gray-400 text-sm"
+                          >PDF, 220 KB, 1 pages</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="p-6">
+                  <h3 class="mb-4 font-bold">Video Content Or Image Gallery</h3>
+
+                  <div class="rounded border">
+                    <iframe
+                      class="mx-auto lg:w-8/12 h-40 sm:h-[600px]"
+                      src="https://www.youtube.com/embed/TwXRAos8_Hw?si=vg7YTV1cOOe98IQY"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+
+                <div class="p-6">
+                  <hr class="mb-5" />
+                  <a href="#" class="text-blue-700 font-bold text-sm">
+                    <i class="fas fa-plus-circle"></i>
+                    Product Details Feedback
+                  </a>
                 </div>
               </div>
             </article>
