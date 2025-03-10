@@ -860,6 +860,10 @@ video {
   width: 100%;
 }
 
+.w-48 {
+  width: 12rem;
+}
+
 .min-w-\[170px\] {
   min-width: 170px;
 }
@@ -874,6 +878,10 @@ video {
 
 .max-w-64 {
   max-width: 16rem;
+}
+
+.max-w-48 {
+  max-width: 12rem;
 }
 
 .shrink-0 {
@@ -919,6 +927,10 @@ video {
 
 .items-start {
   align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
