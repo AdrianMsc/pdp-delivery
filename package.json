@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "tw": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+    "tw": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "twAlt": "npx tailwindcss -i ./src/inputAlt.css -o ./src/outputAlt.css --watch"
   },
   "keywords": [],
   "author": "",
