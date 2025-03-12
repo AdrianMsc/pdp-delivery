@@ -1415,6 +1415,10 @@ video {
   padding-right: 1rem;
 }
 
+.pr-\[256px\] {
+  padding-right: 256px;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1792,6 +1796,10 @@ body {
 
   .md\:overflow-x-hidden {
     overflow-x: hidden;
+  }
+
+  .md\:border-t-2 {
+    border-top-width: 2px;
   }
 
   .md\:p-6 {

@@ -4053,6 +4053,18 @@
               padding-top: 1.5rem;
             }
 
+            .pl-4 {
+              padding-left: 1rem;
+            }
+
+            .pr-4 {
+              padding-right: 1rem;
+            }
+
+            .pr-\[256px\] {
+              padding-right: 256px;
+            }
+
             .text-left {
               text-align: left;
             }
@@ -4163,6 +4175,11 @@
               color: rgb(255 255 255 / var(--tw-text-opacity, 1));
             }
 
+            .text-green-700 {
+              --tw-text-opacity: 1;
+              color: rgb(21 128 61 / var(--tw-text-opacity, 1));
+            }
+
             .line-through {
               text-decoration-line: line-through;
             }
@@ -4188,6 +4205,13 @@
 
             .drop-shadow-\[0_-4px_6px_rgba\(0\2c 0\2c 0\2c 0\.2\)\] {
               --tw-drop-shadow: drop-shadow(0 -4px 6px rgba(0, 0, 0, 0.2));
+              filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+                var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert)
+                var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+            }
+
+            .drop-shadow-\[0_-4px_6px_rgba\(0\2c 0\2c 0\2c 0\.1\)\] {
+              --tw-drop-shadow: drop-shadow(0 -4px 6px rgba(0, 0, 0, 0.1));
               filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
                 var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert)
                 var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -4395,6 +4419,18 @@
                 width: fit-content;
               }
 
+              .md\:w-1\/12 {
+                width: 8.333333%;
+              }
+
+              .md\:w-3\/12 {
+                width: 25%;
+              }
+
+              .md\:w-8\/12 {
+                width: 66.666667%;
+              }
+
               .md\:min-w-32 {
                 min-width: 8rem;
               }
@@ -4413,6 +4449,10 @@
 
               .md\:overflow-x-hidden {
                 overflow-x: hidden;
+              }
+
+              .md\:border-t-2 {
+                border-top-width: 2px;
               }
 
               .md\:p-6 {
@@ -4466,6 +4506,11 @@
                 order: 3;
               }
 
+              .lg\:mx-auto {
+                margin-left: auto;
+                margin-right: auto;
+              }
+
               .lg\:block {
                 display: block;
               }
@@ -4492,6 +4537,18 @@
 
               .lg\:w-8\/12 {
                 width: 66.666667%;
+              }
+
+              .lg\:w-2\/12 {
+                width: 16.666667%;
+              }
+
+              .lg\:w-48 {
+                width: 12rem;
+              }
+
+              .lg\:w-9\/12 {
+                width: 75%;
               }
 
               .lg\:flex-row {
@@ -4561,7 +4618,7 @@
 
           <div class="my-10">
             <section
-              class="bg-[#F2F2F2] border rounded-md border-gray-300 md:pt-3 flex flex-col"
+              class="bg-[#F2F2F2] border rounded-md border-gray-300 md:pt-3 flex flex-col text-sm"
             >
               <div class="mb-3 font-bold pl-[256px] hidden md:flex">
                 <p class="w-[256px]">This Item:</p>
@@ -4569,43 +4626,45 @@
               </div>
 
               <div
-                class="flex overflow-x-auto md:overflow-x-hidden whitespace-nowrap"
+                class="flex overflow-x-auto md:overflow-x-hidden whitespace-nowrap pr-[256px]"
               >
                 <article
                   class="md:w-[256px] md:min-w-[256px] absolute md:relative pointer-events-none"
                 >
                   <div class="h-[215px]"></div>
-                  <div class="p-2 font-bold border-t-2 h-[55px] md:h-auto">
+                  <div class="p-2 font-bold md:border-t-2 h-[55px] md:h-auto">
                     Price
                   </div>
-                  <div class="p-2 font-bold border-t-2 h-[55px] md:h-auto">
+                  <div class="p-2 font-bold md:border-t-2 h-[55px] md:h-auto">
                     Customer Rating
                   </div>
-                  <div class="p-2 font-bold border-t-2 h-[55px] md:h-auto">
+                  <div class="p-2 font-bold md:border-t-2 h-[55px] md:h-auto">
                     Stock
                   </div>
-                  <div class="p-2 font-bold border-t-2 h-[100px] md:h-[76px]">
+                  <div
+                    class="p-2 font-bold md:border-t-2 h-[100px] md:h-[76px]"
+                  >
                     Delivery
                   </div>
-                  <div class="p-2 font-bold border-t-2 h-[55px] md:h-auto">
+                  <div class="p-2 font-bold md:border-t-2 h-[55px] md:h-auto">
                     Drill Bit Size (Inch)
                   </div>
 
                   <!-- colapsable content -->
                   <div class="hidd-cont hidden">
-                    <div class="p-2 font-bold border-t-2 h-[55px] md:h-auto">
+                    <div class="p-2 font-bold md:border-t-2 h-[55px] md:h-auto">
                       Drill Bit Size (Decimal Inch)
                     </div>
 
-                    <div class="p-2 font-bold border-t-2 h-[55px] md:h-auto">
+                    <div class="p-2 font-bold md:border-t-2 h-[55px] md:h-auto">
                       Drill Bit Material
                     </div>
 
-                    <div class="p-2 font-bold border-t-2 h-[55px] md:h-auto">
+                    <div class="p-2 font-bold md:border-t-2 h-[55px] md:h-auto">
                       Drill Point Angle
                     </div>
 
-                    <div class="p-2 font-bold border-t-2 h-[55px] md:h-auto">
+                    <div class="p-2 font-bold md:border-t-2 h-[55px] md:h-auto">
                       And More...
                     </div>
                   </div>
