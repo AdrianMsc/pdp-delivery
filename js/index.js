@@ -41,7 +41,7 @@ const showBottomBanner = () => {
       bottomBanner.classList.remove('md:block');
     }
   };
-
+  console.log('WORKS!');
   window.addEventListener('scroll', handleScroll);
 };
 

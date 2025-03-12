@@ -163,17 +163,18 @@
               <div
                 class="sm:flex flex-col lg:flex-row justify-between items-center gap-3 hidden"
               >
-                <select
-                  class="lg:w-6/12 w-full border border-gray-300 min-h-10 rounded pl-3 py-2 text-sm"
+                <div
+                  class="w-[50%] border border-gray-300 min-h-10 rounded px-3 py-2 bg-white overflow-hidden"
                 >
-                  <option value="" disabled selected>
-                    Choose a CAD Format
-                  </option>
-                  <option value="option-1">Option 1</option>
-                  <option value="option-2">Option 2</option>
-                  <option value="option-3">Option 3</option>
-                </select>
-
+                  <select class="text-sm w-full">
+                    <option value="" disabled selected>
+                      Choose a CAD Format
+                    </option>
+                    <option value="option-1">Option 1</option>
+                    <option value="option-2">Option 2</option>
+                    <option value="option-3">Option 3</option>
+                  </select>
+                </div>
                 <button
                   class="rounded-full bg-white text-blue-700 border border-blue-700 py-3 px-5 font-bold text-base leading-4 hover:bg-gray-100 disabled:bg-transparent disabled:cursor-not-allowed disabled:border-gray-900 disabled:text-gray-500 focus-visible:outline-dashed focus-visible:outline-1 focus-visible:outline-offset-4 focus-visible:outline-gray-300"
                 >
@@ -501,16 +502,18 @@
                 <p class="text-sm font-normal">Length</p>
                 <p class="text-xs italic font-normal">Multiples of 50</p>
               </div>
-              <select
-                class="w-[50%] border border-gray-300 min-h-10 rounded pl-3 py-2 text-sm"
+              <div
+                class="w-[50%] border border-gray-300 min-h-10 rounded px-3 py-2"
               >
-                <option value="" disabled selected class="text-center">
-                  50
-                </option>
-                <option value="option-1" class="text-center">100</option>
-                <option value="option-2" class="text-center">150</option>
-                <option value="option-3" class="text-center">200</option>
-              </select>
+                <select class="text-sm w-full h-full">
+                  <option value="" disabled selected class="text-center">
+                    50
+                  </option>
+                  <option value="option-1" class="text-center">100</option>
+                  <option value="option-2" class="text-center">150</option>
+                  <option value="option-3" class="text-center">200</option>
+                </select>
+              </div>
             </div>
             <div class="flex flex-row justify-between items-center">
               <div class="flex flex-col">
@@ -577,7 +580,7 @@
                     fill="#0E754A"
                   />
                 </svg>
-                <p class="text-sm font-normal">1017 In Stock</p>
+                <p class="text-sm font-bold text-green-700">1017 In Stock</p>
               </div>
               <div class="flex flex-row gap-2 items-center">
                 <svg
@@ -2424,14 +2427,14 @@
 
     <article
       id="bottomBanner"
-      class="fixed bg-white pt-4 pb-6 bottom-0 left-0 z-20 w-full hidden md:hidden drop-shadow-[0_-4px_6px_rgba(0,0,0,0.2)]"
+      class="fixed bg-white pt-4 pb-6 bottom-0 left-0 z-20 w-full hidden md:hidden drop-shadow-[0_-4px_6px_rgba(0,0,0,0.1)]"
     >
-      <div class="container mx-auto flex gap-x-4">
-        <div class="w-4/12 xl:w-1/12">
-          <img src="https://placehold.co/104x104" class="w-24 mx-auto" alt="" />
+      <div class="lg:container lg:mx-auto flex gap-x-4 pl-4">
+        <div class="w-4/12 md:w-1/12">
+          <img src="https://placehold.co/104x104" class="w-24" alt="" />
         </div>
 
-        <div class="w-4/12 xl:w-9/12">
+        <div class="w-4/12 md:w-8/12 lg:w-9/12">
           <p class="font-bold text-xs">SHOWA</p>
           <p class="font-bold text-sm">
             Disposable Gloves: Size X-Large, 2.5 mil, Nitrile Coated, Nitrile,
@@ -2448,13 +2451,15 @@
           </p>
         </div>
 
-        <div class="w-4/12 xl:w-2/12 flex flex-col justify-between items-end">
+        <div
+          class="w-4/12 md:w-3/12 lg:w-2/12 flex flex-col justify-between items-end pr-4"
+        >
           <p class="text-right text-sm">
             Web Price <b class="text-xl">$28.87</b>
           </p>
 
           <button
-            class="rounded-full bg-blue-700 text-white py-3 px-5 font-bold text-base leading-4 w-48"
+            class="rounded-full bg-blue-700 text-white py-3 px-5 font-bold text-base leading-4 w-full lg:w-48"
           >
             Add to Cart
           </button>

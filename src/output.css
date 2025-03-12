@@ -860,10 +860,6 @@ video {
   width: 100%;
 }
 
-.w-48 {
-  width: 12rem;
-}
-
 .min-w-\[170px\] {
   min-width: 170px;
 }
@@ -878,10 +874,6 @@ video {
 
 .max-w-64 {
   max-width: 16rem;
-}
-
-.max-w-48 {
-  max-width: 12rem;
 }
 
 .shrink-0 {
@@ -1304,12 +1296,20 @@ video {
   padding-left: 0.75rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .pl-5 {
   padding-left: 1.25rem;
 }
 
 .pl-6 {
   padding-left: 1.5rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .pt-0 {
@@ -1415,6 +1415,11 @@ video {
   color: rgb(17 24 39 / var(--tw-text-opacity, 1));
 }
 
+.text-green-700 {
+  --tw-text-opacity: 1;
+  color: rgb(21 128 61 / var(--tw-text-opacity, 1));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
@@ -1440,8 +1445,8 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.drop-shadow-\[0_-4px_6px_rgba\(0\2c 0\2c 0\2c 0\.2\)\] {
-  --tw-drop-shadow: drop-shadow(0 -4px 6px rgba(0,0,0,0.2));
+.drop-shadow-\[0_-4px_6px_rgba\(0\2c 0\2c 0\2c 0\.1\)\] {
+  --tw-drop-shadow: drop-shadow(0 -4px 6px rgba(0,0,0,0.1));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -1622,6 +1627,18 @@ body {
     display: none;
   }
 
+  .md\:w-1\/12 {
+    width: 8.333333%;
+  }
+
+  .md\:w-3\/12 {
+    width: 25%;
+  }
+
+  .md\:w-8\/12 {
+    width: 66.666667%;
+  }
+
   .md\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
@@ -1669,6 +1686,11 @@ body {
     order: 3;
   }
 
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1681,6 +1703,10 @@ body {
     display: none;
   }
 
+  .lg\:w-2\/12 {
+    width: 16.666667%;
+  }
+
   .lg\:w-3\/12 {
     width: 25%;
   }
@@ -1689,12 +1715,20 @@ body {
     width: 33.333333%;
   }
 
+  .lg\:w-48 {
+    width: 12rem;
+  }
+
   .lg\:w-6\/12 {
     width: 50%;
   }
 
   .lg\:w-8\/12 {
     width: 66.666667%;
+  }
+
+  .lg\:w-9\/12 {
+    width: 75%;
   }
 
   .lg\:flex-row {
