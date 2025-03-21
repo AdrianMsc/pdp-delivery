@@ -3185,12 +3185,28 @@
               --tw-gradient-from-position: ;
               --tw-gradient-via-position: ;
               --tw-gradient-to-position: ;
+
+              --tw-translate-x: 0;
+              --tw-translate-y: 0;
+              --tw-rotate: 0;
+              --tw-skew-x: 0;
+              --tw-skew-y: 0;
+              --tw-scale-x: 1;
+              --tw-scale-y: 1;
             }
 
             ::backdrop {
               --tw-gradient-from-position: ;
               --tw-gradient-via-position: ;
               --tw-gradient-to-position: ;
+
+              --tw-translate-x: 0;
+              --tw-translate-y: 0;
+              --tw-rotate: 0;
+              --tw-skew-x: 0;
+              --tw-skew-y: 0;
+              --tw-scale-x: 1;
+              --tw-scale-y: 1;
             }
             [hidden]:where(:not([hidden='until-found'])) {
               display: none;
@@ -4972,7 +4988,7 @@
                       </svg>
                     </button>
                   </header>
-                  <section class="py-2 px-3 text-sm">
+                  <section id="tableSection" class="py-2 px-3 text-sm">
                     <p class="block md:hidden">Quantity</p>
                     <table class="w-full text-left">
                       <tr class="border-b">
@@ -9760,6 +9776,20 @@ For example 555-1234"
 
     <!-- // Start omer's team Simulation JS here -->
     <script>
+      const dropDownOpen = () => {
+        const dropDown = document.querySelector('#dropDown');
+        const tableSection = document.querySelector('#tableSection');
+        const detailText = document.querySelector('#detailText');
+
+        dropDown?.classList.toggle('rotate-180');
+        tableSection?.classList.toggle('hidden');
+
+        if (detailText) {
+          detailText.textContent =
+            detailText.textContent.trim() === 'Hide' ? 'View' : 'Hide';
+        }
+      };
+
       dropDownOpenSpec = () => {
         const dropDownSpec = document.getElementById('dropDownSpec');
         dropDownSpec.classList.toggle('rotate-180');
