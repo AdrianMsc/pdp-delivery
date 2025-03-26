@@ -3334,11 +3334,6 @@
               margin: auto;
             }
 
-            .mx-4 {
-              margin-left: 1rem;
-              margin-right: 1rem;
-            }
-
             .mx-auto {
               margin-left: auto;
               margin-right: auto;
@@ -3352,6 +3347,11 @@
             .my-5 {
               margin-top: 1.25rem;
               margin-bottom: 1.25rem;
+            }
+
+            .mx-4 {
+              margin-left: 1rem;
+              margin-right: 1rem;
             }
 
             .mb-1 {
@@ -3382,10 +3382,6 @@
               margin-left: 0.25rem;
             }
 
-            .ml-8 {
-              margin-left: 2rem;
-            }
-
             .ml-auto {
               margin-left: auto;
             }
@@ -3402,24 +3398,8 @@
               margin-right: 1rem;
             }
 
-            .mr-5 {
-              margin-right: 1.25rem;
-            }
-
             .mr-7 {
               margin-right: 1.75rem;
-            }
-
-            .mr-8 {
-              margin-right: 2rem;
-            }
-
-            .mt-1 {
-              margin-top: 0.25rem;
-            }
-
-            .mt-2 {
-              margin-top: 0.5rem;
             }
 
             .mt-3 {
@@ -3432,6 +3412,26 @@
 
             .mt-5 {
               margin-top: 1.25rem;
+            }
+
+            .ml-8 {
+              margin-left: 2rem;
+            }
+
+            .mr-5 {
+              margin-right: 1.25rem;
+            }
+
+            .mr-8 {
+              margin-right: 2rem;
+            }
+
+            .mt-1 {
+              margin-top: 0.25rem;
+            }
+
+            .mt-2 {
+              margin-top: 0.5rem;
             }
 
             .mt-6 {
@@ -3476,10 +3476,6 @@
 
             .h-12 {
               height: 3rem;
-            }
-
-            .h-24 {
-              height: 6rem;
             }
 
             .h-40 {
@@ -3537,6 +3533,10 @@
 
             .h-full {
               height: 100%;
+            }
+
+            .h-24 {
+              height: 6rem;
             }
 
             .max-h-full {
@@ -3599,10 +3599,6 @@
               width: 256px;
             }
 
-            .w-\[40px\] {
-              width: 40px;
-            }
-
             .w-\[50\%\] {
               width: 50%;
             }
@@ -3617,6 +3613,10 @@
 
             .w-full {
               width: 100%;
+            }
+
+            .w-\[40px\] {
+              width: 40px;
             }
 
             .min-w-24 {
@@ -4047,11 +4047,6 @@
               padding-right: 0.25rem;
             }
 
-            .px-10 {
-              padding-left: 2.5rem;
-              padding-right: 2.5rem;
-            }
-
             .px-2 {
               padding-left: 0.5rem;
               padding-right: 0.5rem;
@@ -4082,11 +4077,6 @@
               padding-bottom: 0px;
             }
 
-            .py-0\.5 {
-              padding-top: 0.125rem;
-              padding-bottom: 0.125rem;
-            }
-
             .py-1 {
               padding-top: 0.25rem;
               padding-bottom: 0.25rem;
@@ -4107,6 +4097,16 @@
               padding-bottom: 1rem;
             }
 
+            .px-10 {
+              padding-left: 2.5rem;
+              padding-right: 2.5rem;
+            }
+
+            .py-0\.5 {
+              padding-top: 0.125rem;
+              padding-bottom: 0.125rem;
+            }
+
             .py-5 {
               padding-top: 1.25rem;
               padding-bottom: 1.25rem;
@@ -4117,12 +4117,13 @@
               padding-bottom: 2rem;
             }
 
-            .pb-0 {
-              padding-bottom: 0px;
+            .\!px-3 {
+              padding-left: 0.75rem !important;
+              padding-right: 0.75rem !important;
             }
 
-            .pb-10 {
-              padding-bottom: 2.5rem;
+            .pb-0 {
+              padding-bottom: 0px;
             }
 
             .pb-2 {
@@ -4139,10 +4140,6 @@
 
             .pb-6 {
               padding-bottom: 1.5rem;
-            }
-
-            .pb-8 {
-              padding-bottom: 2rem;
             }
 
             .pl-3 {
@@ -4165,10 +4162,6 @@
               padding-left: 256px;
             }
 
-            .pr-2 {
-              padding-right: 0.5rem;
-            }
-
             .pr-20 {
               padding-right: 5rem;
             }
@@ -4185,10 +4178,6 @@
               padding-top: 0px;
             }
 
-            .pt-3 {
-              padding-top: 0.75rem;
-            }
-
             .pt-4 {
               padding-top: 1rem;
             }
@@ -4199,6 +4188,22 @@
 
             .pt-6 {
               padding-top: 1.5rem;
+            }
+
+            .pb-10 {
+              padding-bottom: 2.5rem;
+            }
+
+            .pb-8 {
+              padding-bottom: 2rem;
+            }
+
+            .pr-2 {
+              padding-right: 0.5rem;
+            }
+
+            .pt-3 {
+              padding-top: 0.75rem;
             }
 
             .text-left {
@@ -4367,6 +4372,12 @@
                 var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
             }
 
+            .transition-all {
+              transition-property: all;
+              transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+              transition-duration: 150ms;
+            }
+
             .transition {
               transition-property: color, background-color, border-color,
                 text-decoration-color, fill, stroke, opacity, box-shadow,
@@ -4377,12 +4388,6 @@
               transition-property: color, background-color, border-color,
                 text-decoration-color, fill, stroke, opacity, box-shadow,
                 transform, filter, backdrop-filter, -webkit-backdrop-filter;
-              transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-              transition-duration: 150ms;
-            }
-
-            .transition-all {
-              transition-property: all;
               transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
               transition-duration: 150ms;
             }
@@ -4717,10 +4722,6 @@
                 padding-right: 0px;
               }
 
-              .md\:pr-5 {
-                padding-right: 1.25rem;
-              }
-
               .md\:pt-2 {
                 padding-top: 0.5rem;
               }
@@ -4729,21 +4730,20 @@
                 padding-top: 0.75rem;
               }
 
-              .md\:pt-4 {
-                padding-top: 1rem;
-              }
-
               .md\:pt-6 {
                 padding-top: 1.5rem;
               }
 
-              .md\:text-center {
-                text-align: center;
+              .md\:pr-5 {
+                padding-right: 1.25rem;
               }
 
-              .md\:text-3xl {
-                font-size: 1.875rem;
-                line-height: 2.25rem;
+              .md\:pt-4 {
+                padding-top: 1rem;
+              }
+
+              .md\:text-center {
+                text-align: center;
               }
 
               .md\:text-sm {
@@ -4754,6 +4754,11 @@
               .md\:text-xl {
                 font-size: 1.25rem;
                 line-height: 1.75rem;
+              }
+
+              .md\:text-3xl {
+                font-size: 1.875rem;
+                line-height: 2.25rem;
               }
 
               .md\:no-underline {
@@ -5315,7 +5320,7 @@
                       </svg>
                     </button>
                   </header>
-                  <section id="tableSection" class="py-2 px-3 text-sm">
+                  <section id="tableSection" class="py-2 !px-3 text-sm">
                     <p class="block md:hidden">Quantity</p>
                     <table class="w-full text-left">
                       <tr class="border-b">
