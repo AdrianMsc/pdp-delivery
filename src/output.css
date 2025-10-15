@@ -983,6 +983,10 @@ video {
   height: 268px;
 }
 
+.h-\[40px\] {
+  height: 40px;
+}
+
 .h-\[55px\] {
   height: 55px;
 }
@@ -2814,6 +2818,10 @@ body {
     --tw-space-x-reverse: 0;
     margin-right: calc(1.75rem * var(--tw-space-x-reverse));
     margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .xl\:rounded-lg {
+    border-radius: 0.5rem;
   }
 
   .xl\:px-0 {
