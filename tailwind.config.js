@@ -3,6 +3,7 @@ module.exports = {
   content: [
     './index.html',
     './newPdp.html',
+    './newPdpCodeV2.html',
     './documents.html',
     './product-details.html',
     './similarItems.html',
