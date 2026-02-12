@@ -28,6 +28,9 @@
 
     if (!document.body) return;
 
+    // Si ya se accedió antes, no mostrar el overlay
+    if (localStorage.getItem('lab-password-authorized') === 'true') return;
+
     document.body.insertAdjacentHTML('afterbegin', buildOverlayHtml());
 
     const overlay = document.getElementById('lab-password-overlay');
@@ -48,6 +51,7 @@
 
     function allow() {
       document.documentElement.style.overflow = '';
+      localStorage.setItem('lab-password-authorized', 'true');
       overlay.remove();
     }
 
